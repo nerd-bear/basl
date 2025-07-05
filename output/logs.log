@@ -1,0 +1,4502 @@
+[lex] Starting lexical analysis.
+[lex] Reading char: '/' at pos 0
+[lex] Parsed single operator: /
+[lex] Added token: / at line 1, columns 1-0
+[lex] Reading char: '/' at pos 1
+[lex] Parsed single operator: /
+[lex] Added token: / at line 1, columns 2-1
+[lex] Reading char: ' ' at pos 2
+[lex] Reading char: 'T' at pos 3
+[lex] Starting identifier at pos 3
+[lex] Parsed identifier: This
+[lex] Added token: This at line 1, columns 4-7
+[lex] Reading char: ' ' at pos 7
+[lex] Reading char: 'i' at pos 8
+[lex] Starting identifier at pos 8
+[lex] Parsed identifier: is
+[lex] Added token: is at line 1, columns 9-10
+[lex] Reading char: ' ' at pos 10
+[lex] Reading char: 'a' at pos 11
+[lex] Starting identifier at pos 11
+[lex] Parsed identifier: a
+[lex] Added token: a at line 1, columns 12-12
+[lex] Reading char: ' ' at pos 12
+[lex] Reading char: 's' at pos 13
+[lex] Starting identifier at pos 13
+[lex] Parsed identifier: sample
+[lex] Added token: sample at line 1, columns 14-19
+[lex] Reading char: ' ' at pos 19
+[lex] Reading char: 'i' at pos 20
+[lex] Starting identifier at pos 20
+[lex] Parsed identifier: input
+[lex] Added token: input at line 1, columns 21-25
+[lex] Reading char: ' ' at pos 25
+[lex] Reading char: 'f' at pos 26
+[lex] Starting identifier at pos 26
+[lex] Parsed identifier: file
+[lex] Added token: file at line 1, columns 27-30
+[lex] Reading char: ' ' at pos 30
+[lex] Reading char: 'f' at pos 31
+[lex] Starting identifier at pos 31
+[lex] Parsed identifier: for
+[lex] Added token: for at line 1, columns 32-34
+[lex] Reading char: ' ' at pos 34
+[lex] Reading char: 't' at pos 35
+[lex] Starting identifier at pos 35
+[lex] Parsed identifier: the
+[lex] Added token: the at line 1, columns 36-38
+[lex] Reading char: ' ' at pos 38
+[lex] Reading char: 'B' at pos 39
+[lex] Starting identifier at pos 39
+[lex] Parsed identifier: Bassil
+[lex] Added token: Bassil at line 1, columns 40-45
+[lex] Reading char: ' ' at pos 45
+[lex] Reading char: 'l' at pos 46
+[lex] Starting identifier at pos 46
+[lex] Parsed identifier: language
+[lex] Added token: language at line 1, columns 47-54
+[lex] Reading char: ' ' at pos 54
+[lex] Reading char: 'l' at pos 55
+[lex] Starting identifier at pos 55
+[lex] Parsed identifier: lexer
+[lex] Added token: lexer at line 1, columns 56-60
+[lex] Reading char: '
+' at pos 60
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 61
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 62
+[lex] Parsed single operator: /
+[lex] Added token: / at line 3, columns 1-0
+[lex] Reading char: '/' at pos 63
+[lex] Parsed single operator: /
+[lex] Added token: / at line 3, columns 2-1
+[lex] Reading char: ' ' at pos 64
+[lex] Reading char: 'B' at pos 65
+[lex] Starting identifier at pos 65
+[lex] Parsed identifier: Basic
+[lex] Added token: Basic at line 3, columns 4-8
+[lex] Reading char: ' ' at pos 70
+[lex] Reading char: 'v' at pos 71
+[lex] Starting identifier at pos 71
+[lex] Parsed identifier: variable
+[lex] Added token: variable at line 3, columns 10-17
+[lex] Reading char: ' ' at pos 79
+[lex] Reading char: 'd' at pos 80
+[lex] Starting identifier at pos 80
+[lex] Parsed identifier: declarations
+[lex] Added token: declarations at line 3, columns 19-30
+[lex] Reading char: ' ' at pos 92
+[lex] Reading char: 'a' at pos 93
+[lex] Starting identifier at pos 93
+[lex] Parsed identifier: and
+[lex] Added token: and at line 3, columns 32-34
+[lex] Reading char: ' ' at pos 96
+[lex] Reading char: 'a' at pos 97
+[lex] Starting identifier at pos 97
+[lex] Parsed identifier: assignments
+[lex] Added token: assignments at line 3, columns 36-46
+[lex] Reading char: '
+' at pos 108
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 109
+[lex] Starting identifier at pos 109
+[lex] Parsed identifier: int
+[lex] Added token: int at line 4, columns 1-3
+[lex] Reading char: ' ' at pos 112
+[lex] Reading char: 'x' at pos 113
+[lex] Starting identifier at pos 113
+[lex] Parsed identifier: x
+[lex] Added token: x at line 4, columns 5-5
+[lex] Reading char: ' ' at pos 114
+[lex] Reading char: '=' at pos 115
+[lex] Parsed single operator: =
+[lex] Added token: = at line 4, columns 7-6
+[lex] Reading char: ' ' at pos 116
+[lex] Reading char: '5' at pos 117
+[lex] Starting number at pos 117
+[lex] Parsed number: 5
+[lex] Added token: 5 at line 4, columns 9-9
+[lex] Reading char: ';' at pos 118
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 4, columns 10-9
+[lex] Reading char: '
+' at pos 119
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 120
+[lex] Starting identifier at pos 120
+[lex] Parsed identifier: float
+[lex] Added token: float at line 5, columns 1-5
+[lex] Reading char: ' ' at pos 125
+[lex] Reading char: 'p' at pos 126
+[lex] Starting identifier at pos 126
+[lex] Parsed identifier: pi
+[lex] Added token: pi at line 5, columns 7-8
+[lex] Reading char: ' ' at pos 128
+[lex] Reading char: '=' at pos 129
+[lex] Parsed single operator: =
+[lex] Added token: = at line 5, columns 10-9
+[lex] Reading char: ' ' at pos 130
+[lex] Reading char: '3' at pos 131
+[lex] Starting number at pos 131
+[lex] Parsed number: 3.14159
+[lex] Added token: 3.14159 at line 5, columns 12-18
+[lex] Reading char: ';' at pos 138
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 5, columns 19-18
+[lex] Reading char: '
+' at pos 139
+[lex] Newline detected.
+[lex] Reading char: 'c' at pos 140
+[lex] Starting identifier at pos 140
+[lex] Parsed identifier: char
+[lex] Added token: char at line 6, columns 1-4
+[lex] Reading char: ' ' at pos 144
+[lex] Reading char: 'i' at pos 145
+[lex] Starting identifier at pos 145
+[lex] Parsed identifier: initial
+[lex] Added token: initial at line 6, columns 6-12
+[lex] Reading char: ' ' at pos 152
+[lex] Reading char: '=' at pos 153
+[lex] Parsed single operator: =
+[lex] Added token: = at line 6, columns 14-13
+[lex] Reading char: ' ' at pos 154
+[lex] Reading char: ''' at pos 155
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 6, columns 16-15
+[lex] Reading char: 'A' at pos 156
+[lex] Starting identifier at pos 156
+[lex] Parsed identifier: A
+[lex] Added token: A at line 6, columns 17-17
+[lex] Reading char: ''' at pos 157
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 6, columns 18-17
+[lex] Reading char: ';' at pos 158
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 6, columns 19-18
+[lex] Reading char: '
+' at pos 159
+[lex] Newline detected.
+[lex] Reading char: 's' at pos 160
+[lex] Starting identifier at pos 160
+[lex] Parsed identifier: string
+[lex] Added token: string at line 7, columns 1-6
+[lex] Reading char: ' ' at pos 166
+[lex] Reading char: 'g' at pos 167
+[lex] Starting identifier at pos 167
+[lex] Parsed identifier: greeting
+[lex] Added token: greeting at line 7, columns 8-15
+[lex] Reading char: ' ' at pos 175
+[lex] Reading char: '=' at pos 176
+[lex] Parsed single operator: =
+[lex] Added token: = at line 7, columns 17-16
+[lex] Reading char: ' ' at pos 177
+[lex] Reading char: '"' at pos 178
+[lex] Starting string literal.
+[lex] Parsed string: "Hello, World!"
+[lex] Added token: "Hello, World!" at line 7, columns 19-33
+[lex] Reading char: ';' at pos 193
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 7, columns 34-33
+[lex] Reading char: '
+' at pos 194
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 195
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 196
+[lex] Parsed single operator: /
+[lex] Added token: / at line 9, columns 1-0
+[lex] Reading char: '/' at pos 197
+[lex] Parsed single operator: /
+[lex] Added token: / at line 9, columns 2-1
+[lex] Reading char: ' ' at pos 198
+[lex] Reading char: 'A' at pos 199
+[lex] Starting identifier at pos 199
+[lex] Parsed identifier: Arithmetic
+[lex] Added token: Arithmetic at line 9, columns 4-13
+[lex] Reading char: ' ' at pos 209
+[lex] Reading char: 'o' at pos 210
+[lex] Starting identifier at pos 210
+[lex] Parsed identifier: operations
+[lex] Added token: operations at line 9, columns 15-24
+[lex] Reading char: '
+' at pos 220
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 221
+[lex] Starting identifier at pos 221
+[lex] Parsed identifier: int
+[lex] Added token: int at line 10, columns 1-3
+[lex] Reading char: ' ' at pos 224
+[lex] Reading char: 'r' at pos 225
+[lex] Starting identifier at pos 225
+[lex] Parsed identifier: result
+[lex] Added token: result at line 10, columns 5-10
+[lex] Reading char: ' ' at pos 231
+[lex] Reading char: '=' at pos 232
+[lex] Parsed single operator: =
+[lex] Added token: = at line 10, columns 12-11
+[lex] Reading char: ' ' at pos 233
+[lex] Reading char: '(' at pos 234
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 10, columns 14-13
+[lex] Reading char: '1' at pos 235
+[lex] Starting number at pos 235
+[lex] Parsed number: 10
+[lex] Added token: 10 at line 10, columns 15-16
+[lex] Reading char: ' ' at pos 237
+[lex] Reading char: '+' at pos 238
+[lex] Parsed single operator: +
+[lex] Added token: + at line 10, columns 18-17
+[lex] Reading char: ' ' at pos 239
+[lex] Reading char: '2' at pos 240
+[lex] Starting number at pos 240
+[lex] Parsed number: 20
+[lex] Added token: 20 at line 10, columns 20-21
+[lex] Reading char: ')' at pos 242
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 10, columns 22-21
+[lex] Reading char: ' ' at pos 243
+[lex] Reading char: '*' at pos 244
+[lex] Parsed single operator: *
+[lex] Added token: * at line 10, columns 24-23
+[lex] Reading char: ' ' at pos 245
+[lex] Reading char: '3' at pos 246
+[lex] Starting number at pos 246
+[lex] Parsed number: 3
+[lex] Added token: 3 at line 10, columns 26-26
+[lex] Reading char: ' ' at pos 247
+[lex] Reading char: '/' at pos 248
+[lex] Parsed single operator: /
+[lex] Added token: / at line 10, columns 28-27
+[lex] Reading char: ' ' at pos 249
+[lex] Reading char: '2' at pos 250
+[lex] Starting number at pos 250
+[lex] Parsed number: 2
+[lex] Added token: 2 at line 10, columns 30-30
+[lex] Reading char: ' ' at pos 251
+[lex] Reading char: '-' at pos 252
+[lex] Parsed single operator: -
+[lex] Added token: - at line 10, columns 32-31
+[lex] Reading char: ' ' at pos 253
+[lex] Reading char: '5' at pos 254
+[lex] Starting number at pos 254
+[lex] Parsed number: 5
+[lex] Added token: 5 at line 10, columns 34-34
+[lex] Reading char: ';' at pos 255
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 10, columns 35-34
+[lex] Reading char: '
+' at pos 256
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 257
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 258
+[lex] Parsed single operator: /
+[lex] Added token: / at line 12, columns 1-0
+[lex] Reading char: '/' at pos 259
+[lex] Parsed single operator: /
+[lex] Added token: / at line 12, columns 2-1
+[lex] Reading char: ' ' at pos 260
+[lex] Reading char: 'L' at pos 261
+[lex] Starting identifier at pos 261
+[lex] Parsed identifier: Logical
+[lex] Added token: Logical at line 12, columns 4-10
+[lex] Reading char: ' ' at pos 268
+[lex] Reading char: 'a' at pos 269
+[lex] Starting identifier at pos 269
+[lex] Parsed identifier: and
+[lex] Added token: and at line 12, columns 12-14
+[lex] Reading char: ' ' at pos 272
+[lex] Reading char: 'c' at pos 273
+[lex] Starting identifier at pos 273
+[lex] Parsed identifier: comparison
+[lex] Added token: comparison at line 12, columns 16-25
+[lex] Reading char: ' ' at pos 283
+[lex] Reading char: 'o' at pos 284
+[lex] Starting identifier at pos 284
+[lex] Parsed identifier: operations
+[lex] Added token: operations at line 12, columns 27-36
+[lex] Reading char: '
+' at pos 294
+[lex] Newline detected.
+[lex] Reading char: 'b' at pos 295
+[lex] Starting identifier at pos 295
+[lex] Parsed identifier: bool
+[lex] Added token: bool at line 13, columns 1-4
+[lex] Reading char: ' ' at pos 299
+[lex] Reading char: 'i' at pos 300
+[lex] Starting identifier at pos 300
+[lex] Parsed identifier: isValid
+[lex] Added token: isValid at line 13, columns 6-12
+[lex] Reading char: ' ' at pos 307
+[lex] Reading char: '=' at pos 308
+[lex] Parsed single operator: =
+[lex] Added token: = at line 13, columns 14-13
+[lex] Reading char: ' ' at pos 309
+[lex] Reading char: '(' at pos 310
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 13, columns 16-15
+[lex] Reading char: 'x' at pos 311
+[lex] Starting identifier at pos 311
+[lex] Parsed identifier: x
+[lex] Added token: x at line 13, columns 17-17
+[lex] Reading char: ' ' at pos 312
+[lex] Reading char: '>' at pos 313
+[lex] Parsed single operator: >
+[lex] Added token: > at line 13, columns 19-18
+[lex] Reading char: ' ' at pos 314
+[lex] Reading char: '0' at pos 315
+[lex] Starting number at pos 315
+[lex] Parsed number: 0
+[lex] Added token: 0 at line 13, columns 21-21
+[lex] Reading char: ')' at pos 316
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 13, columns 22-21
+[lex] Reading char: ' ' at pos 317
+[lex] Reading char: '&' at pos 318
+[lex] Parsed double operator: &&
+[lex] Added token: && at line 13, columns 24-23
+[lex] Reading char: ' ' at pos 320
+[lex] Reading char: '(' at pos 321
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 13, columns 27-26
+[lex] Reading char: 'p' at pos 322
+[lex] Starting identifier at pos 322
+[lex] Parsed identifier: pi
+[lex] Added token: pi at line 13, columns 28-29
+[lex] Reading char: ' ' at pos 324
+[lex] Reading char: '<' at pos 325
+[lex] Parsed single operator: <
+[lex] Added token: < at line 13, columns 31-30
+[lex] Reading char: ' ' at pos 326
+[lex] Reading char: '4' at pos 327
+[lex] Starting number at pos 327
+[lex] Parsed number: 4.0
+[lex] Added token: 4.0 at line 13, columns 33-35
+[lex] Reading char: ')' at pos 330
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 13, columns 36-35
+[lex] Reading char: ' ' at pos 331
+[lex] Reading char: '|' at pos 332
+[lex] Parsed double operator: ||
+[lex] Added token: || at line 13, columns 38-37
+[lex] Reading char: ' ' at pos 334
+[lex] Reading char: '(' at pos 335
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 13, columns 41-40
+[lex] Reading char: 'i' at pos 336
+[lex] Starting identifier at pos 336
+[lex] Parsed identifier: initial
+[lex] Added token: initial at line 13, columns 42-48
+[lex] Reading char: ' ' at pos 343
+[lex] Reading char: '!' at pos 344
+[lex] Parsed double operator: !=
+[lex] Added token: != at line 13, columns 50-49
+[lex] Reading char: ' ' at pos 346
+[lex] Reading char: ''' at pos 347
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 13, columns 53-52
+[lex] Reading char: 'B' at pos 348
+[lex] Starting identifier at pos 348
+[lex] Parsed identifier: B
+[lex] Added token: B at line 13, columns 54-54
+[lex] Reading char: ''' at pos 349
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 13, columns 55-54
+[lex] Reading char: ')' at pos 350
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 13, columns 56-55
+[lex] Reading char: ';' at pos 351
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 13, columns 57-56
+[lex] Reading char: '
+' at pos 352
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 353
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 354
+[lex] Parsed single operator: /
+[lex] Added token: / at line 15, columns 1-0
+[lex] Reading char: '/' at pos 355
+[lex] Parsed single operator: /
+[lex] Added token: / at line 15, columns 2-1
+[lex] Reading char: ' ' at pos 356
+[lex] Reading char: 'C' at pos 357
+[lex] Starting identifier at pos 357
+[lex] Parsed identifier: Control
+[lex] Added token: Control at line 15, columns 4-10
+[lex] Reading char: ' ' at pos 364
+[lex] Reading char: 's' at pos 365
+[lex] Starting identifier at pos 365
+[lex] Parsed identifier: structures
+[lex] Added token: structures at line 15, columns 12-21
+[lex] Reading char: ' ' at pos 375
+[lex] Reading char: '(' at pos 376
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 15, columns 23-22
+[lex] Reading char: 'a' at pos 377
+[lex] Starting identifier at pos 377
+[lex] Parsed identifier: assuming
+[lex] Added token: assuming at line 15, columns 24-31
+[lex] Reading char: ' ' at pos 385
+[lex] Reading char: 't' at pos 386
+[lex] Starting identifier at pos 386
+[lex] Parsed identifier: they
+[lex] Added token: they at line 15, columns 33-36
+[lex] Reading char: ' ' at pos 390
+[lex] Reading char: 'a' at pos 391
+[lex] Starting identifier at pos 391
+[lex] Parsed identifier: are
+[lex] Added token: are at line 15, columns 38-40
+[lex] Reading char: ' ' at pos 394
+[lex] Reading char: 'p' at pos 395
+[lex] Starting identifier at pos 395
+[lex] Parsed identifier: part
+[lex] Added token: part at line 15, columns 42-45
+[lex] Reading char: ' ' at pos 399
+[lex] Reading char: 'o' at pos 400
+[lex] Starting identifier at pos 400
+[lex] Parsed identifier: of
+[lex] Added token: of at line 15, columns 47-48
+[lex] Reading char: ' ' at pos 402
+[lex] Reading char: 't' at pos 403
+[lex] Starting identifier at pos 403
+[lex] Parsed identifier: the
+[lex] Added token: the at line 15, columns 50-52
+[lex] Reading char: ' ' at pos 406
+[lex] Reading char: 'l' at pos 407
+[lex] Starting identifier at pos 407
+[lex] Parsed identifier: language
+[lex] Added token: language at line 15, columns 54-61
+[lex] Reading char: ')' at pos 415
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 15, columns 62-61
+[lex] Reading char: '
+' at pos 416
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 417
+[lex] Starting identifier at pos 417
+[lex] Parsed identifier: if
+[lex] Added token: if at line 16, columns 1-2
+[lex] Reading char: ' ' at pos 419
+[lex] Reading char: '(' at pos 420
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 16, columns 4-3
+[lex] Reading char: 'i' at pos 421
+[lex] Starting identifier at pos 421
+[lex] Parsed identifier: isValid
+[lex] Added token: isValid at line 16, columns 5-11
+[lex] Reading char: ')' at pos 428
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 16, columns 12-11
+[lex] Reading char: ' ' at pos 429
+[lex] Reading char: '{' at pos 430
+[lex] Parsed open brace.
+[lex] Added token: { at line 16, columns 14-13
+[lex] Reading char: '
+' at pos 431
+[lex] Newline detected.
+[lex] Reading char: ' ' at pos 432
+[lex] Reading char: ' ' at pos 433
+[lex] Reading char: ' ' at pos 434
+[lex] Reading char: ' ' at pos 435
+[lex] Reading char: 'p' at pos 436
+[lex] Starting identifier at pos 436
+[lex] Parsed identifier: print
+[lex] Added token: print at line 17, columns 5-9
+[lex] Reading char: '(' at pos 441
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 17, columns 10-9
+[lex] Reading char: '"' at pos 442
+[lex] Starting string literal.
+[lex] Parsed string: "The condition is true"
+[lex] Added token: "The condition is true" at line 17, columns 11-33
+[lex] Reading char: ')' at pos 465
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 17, columns 34-33
+[lex] Reading char: ';' at pos 466
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 17, columns 35-34
+[lex] Reading char: '
+' at pos 467
+[lex] Newline detected.
+[lex] Reading char: '}' at pos 468
+[lex] Parsed close brace.
+[lex] Added token: } at line 18, columns 1-0
+[lex] Reading char: ' ' at pos 469
+[lex] Reading char: 'e' at pos 470
+[lex] Starting identifier at pos 470
+[lex] Parsed identifier: else
+[lex] Added token: else at line 18, columns 3-6
+[lex] Reading char: ' ' at pos 474
+[lex] Reading char: '{' at pos 475
+[lex] Parsed open brace.
+[lex] Added token: { at line 18, columns 8-7
+[lex] Reading char: '
+' at pos 476
+[lex] Newline detected.
+[lex] Reading char: ' ' at pos 477
+[lex] Reading char: ' ' at pos 478
+[lex] Reading char: ' ' at pos 479
+[lex] Reading char: ' ' at pos 480
+[lex] Reading char: 'p' at pos 481
+[lex] Starting identifier at pos 481
+[lex] Parsed identifier: print
+[lex] Added token: print at line 19, columns 5-9
+[lex] Reading char: '(' at pos 486
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 19, columns 10-9
+[lex] Reading char: '"' at pos 487
+[lex] Starting string literal.
+[lex] Parsed string: "The condition is false"
+[lex] Added token: "The condition is false" at line 19, columns 11-34
+[lex] Reading char: ')' at pos 511
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 19, columns 35-34
+[lex] Reading char: ';' at pos 512
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 19, columns 36-35
+[lex] Reading char: '
+' at pos 513
+[lex] Newline detected.
+[lex] Reading char: '}' at pos 514
+[lex] Parsed close brace.
+[lex] Added token: } at line 20, columns 1-0
+[lex] Reading char: '
+' at pos 515
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 516
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 517
+[lex] Parsed single operator: /
+[lex] Added token: / at line 22, columns 1-0
+[lex] Reading char: '/' at pos 518
+[lex] Parsed single operator: /
+[lex] Added token: / at line 22, columns 2-1
+[lex] Reading char: ' ' at pos 519
+[lex] Reading char: 'L' at pos 520
+[lex] Starting identifier at pos 520
+[lex] Parsed identifier: Loop
+[lex] Added token: Loop at line 22, columns 4-7
+[lex] Reading char: ' ' at pos 524
+[lex] Reading char: 's' at pos 525
+[lex] Starting identifier at pos 525
+[lex] Parsed identifier: structure
+[lex] Added token: structure at line 22, columns 9-17
+[lex] Reading char: ' ' at pos 534
+[lex] Reading char: '(' at pos 535
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 22, columns 19-18
+[lex] Reading char: 'a' at pos 536
+[lex] Starting identifier at pos 536
+[lex] Parsed identifier: assuming
+[lex] Added token: assuming at line 22, columns 20-27
+[lex] Reading char: ' ' at pos 544
+[lex] Reading char: 'i' at pos 545
+[lex] Starting identifier at pos 545
+[lex] Parsed identifier: it
+[lex] Added token: it at line 22, columns 29-30
+[lex] Reading char: ''' at pos 547
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 22, columns 31-30
+[lex] Reading char: 's' at pos 548
+[lex] Starting identifier at pos 548
+[lex] Parsed identifier: s
+[lex] Added token: s at line 22, columns 32-32
+[lex] Reading char: ' ' at pos 549
+[lex] Reading char: 'p' at pos 550
+[lex] Starting identifier at pos 550
+[lex] Parsed identifier: part
+[lex] Added token: part at line 22, columns 34-37
+[lex] Reading char: ' ' at pos 554
+[lex] Reading char: 'o' at pos 555
+[lex] Starting identifier at pos 555
+[lex] Parsed identifier: of
+[lex] Added token: of at line 22, columns 39-40
+[lex] Reading char: ' ' at pos 557
+[lex] Reading char: 't' at pos 558
+[lex] Starting identifier at pos 558
+[lex] Parsed identifier: the
+[lex] Added token: the at line 22, columns 42-44
+[lex] Reading char: ' ' at pos 561
+[lex] Reading char: 'l' at pos 562
+[lex] Starting identifier at pos 562
+[lex] Parsed identifier: language
+[lex] Added token: language at line 22, columns 46-53
+[lex] Reading char: ')' at pos 570
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 22, columns 54-53
+[lex] Reading char: '
+' at pos 571
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 572
+[lex] Starting identifier at pos 572
+[lex] Parsed identifier: for
+[lex] Added token: for at line 23, columns 1-3
+[lex] Reading char: ' ' at pos 575
+[lex] Reading char: '(' at pos 576
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 23, columns 5-4
+[lex] Reading char: 'i' at pos 577
+[lex] Starting identifier at pos 577
+[lex] Parsed identifier: int
+[lex] Added token: int at line 23, columns 6-8
+[lex] Reading char: ' ' at pos 580
+[lex] Reading char: 'i' at pos 581
+[lex] Starting identifier at pos 581
+[lex] Parsed identifier: i
+[lex] Added token: i at line 23, columns 10-10
+[lex] Reading char: ' ' at pos 582
+[lex] Reading char: '=' at pos 583
+[lex] Parsed single operator: =
+[lex] Added token: = at line 23, columns 12-11
+[lex] Reading char: ' ' at pos 584
+[lex] Reading char: '0' at pos 585
+[lex] Starting number at pos 585
+[lex] Parsed number: 0
+[lex] Added token: 0 at line 23, columns 14-14
+[lex] Reading char: ';' at pos 586
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 23, columns 15-14
+[lex] Reading char: ' ' at pos 587
+[lex] Reading char: 'i' at pos 588
+[lex] Starting identifier at pos 588
+[lex] Parsed identifier: i
+[lex] Added token: i at line 23, columns 17-17
+[lex] Reading char: ' ' at pos 589
+[lex] Reading char: '<' at pos 590
+[lex] Parsed single operator: <
+[lex] Added token: < at line 23, columns 19-18
+[lex] Reading char: ' ' at pos 591
+[lex] Reading char: '1' at pos 592
+[lex] Starting number at pos 592
+[lex] Parsed number: 10
+[lex] Added token: 10 at line 23, columns 21-22
+[lex] Reading char: ';' at pos 594
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 23, columns 23-22
+[lex] Reading char: ' ' at pos 595
+[lex] Reading char: 'i' at pos 596
+[lex] Starting identifier at pos 596
+[lex] Parsed identifier: i
+[lex] Added token: i at line 23, columns 25-25
+[lex] Reading char: ' ' at pos 597
+[lex] Reading char: '=' at pos 598
+[lex] Parsed single operator: =
+[lex] Added token: = at line 23, columns 27-26
+[lex] Reading char: ' ' at pos 599
+[lex] Reading char: 'i' at pos 600
+[lex] Starting identifier at pos 600
+[lex] Parsed identifier: i
+[lex] Added token: i at line 23, columns 29-29
+[lex] Reading char: ' ' at pos 601
+[lex] Reading char: '+' at pos 602
+[lex] Parsed single operator: +
+[lex] Added token: + at line 23, columns 31-30
+[lex] Reading char: ' ' at pos 603
+[lex] Reading char: '1' at pos 604
+[lex] Starting number at pos 604
+[lex] Parsed number: 1
+[lex] Added token: 1 at line 23, columns 33-33
+[lex] Reading char: ')' at pos 605
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 23, columns 34-33
+[lex] Reading char: ' ' at pos 606
+[lex] Reading char: '{' at pos 607
+[lex] Parsed open brace.
+[lex] Added token: { at line 23, columns 36-35
+[lex] Reading char: '
+' at pos 608
+[lex] Newline detected.
+[lex] Reading char: ' ' at pos 609
+[lex] Reading char: ' ' at pos 610
+[lex] Reading char: ' ' at pos 611
+[lex] Reading char: ' ' at pos 612
+[lex] Reading char: 'p' at pos 613
+[lex] Starting identifier at pos 613
+[lex] Parsed identifier: print
+[lex] Added token: print at line 24, columns 5-9
+[lex] Reading char: '(' at pos 618
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 24, columns 10-9
+[lex] Reading char: 'i' at pos 619
+[lex] Starting identifier at pos 619
+[lex] Parsed identifier: i
+[lex] Added token: i at line 24, columns 11-11
+[lex] Reading char: ')' at pos 620
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 24, columns 12-11
+[lex] Reading char: ';' at pos 621
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 24, columns 13-12
+[lex] Reading char: '
+' at pos 622
+[lex] Newline detected.
+[lex] Reading char: '}' at pos 623
+[lex] Parsed close brace.
+[lex] Added token: } at line 25, columns 1-0
+[lex] Reading char: '
+' at pos 624
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 625
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 626
+[lex] Parsed single operator: /
+[lex] Added token: / at line 27, columns 1-0
+[lex] Reading char: '/' at pos 627
+[lex] Parsed single operator: /
+[lex] Added token: / at line 27, columns 2-1
+[lex] Reading char: ' ' at pos 628
+[lex] Reading char: 'F' at pos 629
+[lex] Starting identifier at pos 629
+[lex] Parsed identifier: Function
+[lex] Added token: Function at line 27, columns 4-11
+[lex] Reading char: ' ' at pos 637
+[lex] Reading char: 'd' at pos 638
+[lex] Starting identifier at pos 638
+[lex] Parsed identifier: definition
+[lex] Added token: definition at line 27, columns 13-22
+[lex] Reading char: ' ' at pos 648
+[lex] Reading char: '(' at pos 649
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 27, columns 24-23
+[lex] Reading char: 'a' at pos 650
+[lex] Starting identifier at pos 650
+[lex] Parsed identifier: assuming
+[lex] Added token: assuming at line 27, columns 25-32
+[lex] Reading char: ' ' at pos 658
+[lex] Reading char: 'i' at pos 659
+[lex] Starting identifier at pos 659
+[lex] Parsed identifier: it
+[lex] Added token: it at line 27, columns 34-35
+[lex] Reading char: ''' at pos 661
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 27, columns 36-35
+[lex] Reading char: 's' at pos 662
+[lex] Starting identifier at pos 662
+[lex] Parsed identifier: s
+[lex] Added token: s at line 27, columns 37-37
+[lex] Reading char: ' ' at pos 663
+[lex] Reading char: 'p' at pos 664
+[lex] Starting identifier at pos 664
+[lex] Parsed identifier: part
+[lex] Added token: part at line 27, columns 39-42
+[lex] Reading char: ' ' at pos 668
+[lex] Reading char: 'o' at pos 669
+[lex] Starting identifier at pos 669
+[lex] Parsed identifier: of
+[lex] Added token: of at line 27, columns 44-45
+[lex] Reading char: ' ' at pos 671
+[lex] Reading char: 't' at pos 672
+[lex] Starting identifier at pos 672
+[lex] Parsed identifier: the
+[lex] Added token: the at line 27, columns 47-49
+[lex] Reading char: ' ' at pos 675
+[lex] Reading char: 'l' at pos 676
+[lex] Starting identifier at pos 676
+[lex] Parsed identifier: language
+[lex] Added token: language at line 27, columns 51-58
+[lex] Reading char: ')' at pos 684
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 27, columns 59-58
+[lex] Reading char: '
+' at pos 685
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 686
+[lex] Starting identifier at pos 686
+[lex] Parsed identifier: function
+[lex] Added token: function at line 28, columns 1-8
+[lex] Reading char: ' ' at pos 694
+[lex] Reading char: 'i' at pos 695
+[lex] Starting identifier at pos 695
+[lex] Parsed identifier: int
+[lex] Added token: int at line 28, columns 10-12
+[lex] Reading char: ' ' at pos 698
+[lex] Reading char: 'f' at pos 699
+[lex] Starting identifier at pos 699
+[lex] Parsed identifier: factorial
+[lex] Added token: factorial at line 28, columns 14-22
+[lex] Reading char: '(' at pos 708
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 28, columns 23-22
+[lex] Reading char: 'i' at pos 709
+[lex] Starting identifier at pos 709
+[lex] Parsed identifier: int
+[lex] Added token: int at line 28, columns 24-26
+[lex] Reading char: ' ' at pos 712
+[lex] Reading char: 'n' at pos 713
+[lex] Starting identifier at pos 713
+[lex] Parsed identifier: n
+[lex] Added token: n at line 28, columns 28-28
+[lex] Reading char: ')' at pos 714
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 28, columns 29-28
+[lex] Reading char: ' ' at pos 715
+[lex] Reading char: '{' at pos 716
+[lex] Parsed open brace.
+[lex] Added token: { at line 28, columns 31-30
+[lex] Reading char: '
+' at pos 717
+[lex] Newline detected.
+[lex] Reading char: ' ' at pos 718
+[lex] Reading char: ' ' at pos 719
+[lex] Reading char: ' ' at pos 720
+[lex] Reading char: ' ' at pos 721
+[lex] Reading char: 'i' at pos 722
+[lex] Starting identifier at pos 722
+[lex] Parsed identifier: if
+[lex] Added token: if at line 29, columns 5-6
+[lex] Reading char: ' ' at pos 724
+[lex] Reading char: '(' at pos 725
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 29, columns 8-7
+[lex] Reading char: 'n' at pos 726
+[lex] Starting identifier at pos 726
+[lex] Parsed identifier: n
+[lex] Added token: n at line 29, columns 9-9
+[lex] Reading char: ' ' at pos 727
+[lex] Reading char: '<' at pos 728
+[lex] Parsed double operator: <=
+[lex] Added token: <= at line 29, columns 11-10
+[lex] Reading char: ' ' at pos 730
+[lex] Reading char: '1' at pos 731
+[lex] Starting number at pos 731
+[lex] Parsed number: 1
+[lex] Added token: 1 at line 29, columns 14-14
+[lex] Reading char: ')' at pos 732
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 29, columns 15-14
+[lex] Reading char: ' ' at pos 733
+[lex] Reading char: 'r' at pos 734
+[lex] Starting identifier at pos 734
+[lex] Parsed identifier: return
+[lex] Added token: return at line 29, columns 17-22
+[lex] Reading char: ' ' at pos 740
+[lex] Reading char: '1' at pos 741
+[lex] Starting number at pos 741
+[lex] Parsed number: 1
+[lex] Added token: 1 at line 29, columns 24-24
+[lex] Reading char: ';' at pos 742
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 29, columns 25-24
+[lex] Reading char: '
+' at pos 743
+[lex] Newline detected.
+[lex] Reading char: ' ' at pos 744
+[lex] Reading char: ' ' at pos 745
+[lex] Reading char: ' ' at pos 746
+[lex] Reading char: ' ' at pos 747
+[lex] Reading char: 'r' at pos 748
+[lex] Starting identifier at pos 748
+[lex] Parsed identifier: return
+[lex] Added token: return at line 30, columns 5-10
+[lex] Reading char: ' ' at pos 754
+[lex] Reading char: 'n' at pos 755
+[lex] Starting identifier at pos 755
+[lex] Parsed identifier: n
+[lex] Added token: n at line 30, columns 12-12
+[lex] Reading char: ' ' at pos 756
+[lex] Reading char: '*' at pos 757
+[lex] Parsed single operator: *
+[lex] Added token: * at line 30, columns 14-13
+[lex] Reading char: ' ' at pos 758
+[lex] Reading char: 'f' at pos 759
+[lex] Starting identifier at pos 759
+[lex] Parsed identifier: factorial
+[lex] Added token: factorial at line 30, columns 16-24
+[lex] Reading char: '(' at pos 768
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 30, columns 25-24
+[lex] Reading char: 'n' at pos 769
+[lex] Starting identifier at pos 769
+[lex] Parsed identifier: n
+[lex] Added token: n at line 30, columns 26-26
+[lex] Reading char: ' ' at pos 770
+[lex] Reading char: '-' at pos 771
+[lex] Parsed single operator: -
+[lex] Added token: - at line 30, columns 28-27
+[lex] Reading char: ' ' at pos 772
+[lex] Reading char: '1' at pos 773
+[lex] Starting number at pos 773
+[lex] Parsed number: 1
+[lex] Added token: 1 at line 30, columns 30-30
+[lex] Reading char: ')' at pos 774
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 30, columns 31-30
+[lex] Reading char: ';' at pos 775
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 30, columns 32-31
+[lex] Reading char: '
+' at pos 776
+[lex] Newline detected.
+[lex] Reading char: '}' at pos 777
+[lex] Parsed close brace.
+[lex] Added token: } at line 31, columns 1-0
+[lex] Reading char: '
+' at pos 778
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 779
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 780
+[lex] Parsed single operator: /
+[lex] Added token: / at line 33, columns 1-0
+[lex] Reading char: '/' at pos 781
+[lex] Parsed single operator: /
+[lex] Added token: / at line 33, columns 2-1
+[lex] Reading char: ' ' at pos 782
+[lex] Reading char: 'T' at pos 783
+[lex] Starting identifier at pos 783
+[lex] Parsed identifier: Testing
+[lex] Added token: Testing at line 33, columns 4-10
+[lex] Reading char: ' ' at pos 790
+[lex] Reading char: 's' at pos 791
+[lex] Starting identifier at pos 791
+[lex] Parsed identifier: string
+[lex] Added token: string at line 33, columns 12-17
+[lex] Reading char: ' ' at pos 797
+[lex] Reading char: 'w' at pos 798
+[lex] Starting identifier at pos 798
+[lex] Parsed identifier: with
+[lex] Added token: with at line 33, columns 19-22
+[lex] Reading char: ' ' at pos 802
+[lex] Reading char: 'e' at pos 803
+[lex] Starting identifier at pos 803
+[lex] Parsed identifier: escaped
+[lex] Added token: escaped at line 33, columns 24-30
+[lex] Reading char: ' ' at pos 810
+[lex] Reading char: 'c' at pos 811
+[lex] Starting identifier at pos 811
+[lex] Parsed identifier: characters
+[lex] Added token: characters at line 33, columns 32-41
+[lex] Reading char: '
+' at pos 821
+[lex] Newline detected.
+[lex] Reading char: 's' at pos 822
+[lex] Starting identifier at pos 822
+[lex] Parsed identifier: string
+[lex] Added token: string at line 34, columns 1-6
+[lex] Reading char: ' ' at pos 828
+[lex] Reading char: 's' at pos 829
+[lex] Starting identifier at pos 829
+[lex] Parsed identifier: specialString
+[lex] Added token: specialString at line 34, columns 8-20
+[lex] Reading char: ' ' at pos 842
+[lex] Reading char: '=' at pos 843
+[lex] Parsed single operator: =
+[lex] Added token: = at line 34, columns 22-21
+[lex] Reading char: ' ' at pos 844
+[lex] Reading char: '"' at pos 845
+[lex] Starting string literal.
+[lex] Escape sequence found.
+[lex] Escape sequence found.
+[lex] Escape sequence found.
+[lex] Escape sequence found.
+[lex] Parsed string: "This string has \"quotes\" and a newline\nand a tab\t"
+[lex] Added token: "This string has \"quotes\" and a newline\nand a tab\t" at line 34, columns 24-78
+[lex] Reading char: ';' at pos 900
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 34, columns 79-78
+[lex] Reading char: '
+' at pos 901
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 902
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 903
+[lex] Parsed single operator: /
+[lex] Added token: / at line 36, columns 1-0
+[lex] Reading char: '/' at pos 904
+[lex] Parsed single operator: /
+[lex] Added token: / at line 36, columns 2-1
+[lex] Reading char: ' ' at pos 905
+[lex] Reading char: 'T' at pos 906
+[lex] Starting identifier at pos 906
+[lex] Parsed identifier: Testing
+[lex] Added token: Testing at line 36, columns 4-10
+[lex] Reading char: ' ' at pos 913
+[lex] Reading char: 'n' at pos 914
+[lex] Starting identifier at pos 914
+[lex] Parsed identifier: numbers
+[lex] Added token: numbers at line 36, columns 12-18
+[lex] Reading char: '
+' at pos 921
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 922
+[lex] Starting identifier at pos 922
+[lex] Parsed identifier: int
+[lex] Added token: int at line 37, columns 1-3
+[lex] Reading char: ' ' at pos 925
+[lex] Reading char: 'l' at pos 926
+[lex] Starting identifier at pos 926
+[lex] Parsed identifier: largeNumber
+[lex] Added token: largeNumber at line 37, columns 5-15
+[lex] Reading char: ' ' at pos 937
+[lex] Reading char: '=' at pos 938
+[lex] Parsed single operator: =
+[lex] Added token: = at line 37, columns 17-16
+[lex] Reading char: ' ' at pos 939
+[lex] Reading char: '1' at pos 940
+[lex] Starting number at pos 940
+[lex] Parsed number: 1000000
+[lex] Added token: 1000000 at line 37, columns 19-25
+[lex] Reading char: ';' at pos 947
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 37, columns 26-25
+[lex] Reading char: '
+' at pos 948
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 949
+[lex] Starting identifier at pos 949
+[lex] Parsed identifier: float
+[lex] Added token: float at line 38, columns 1-5
+[lex] Reading char: ' ' at pos 954
+[lex] Reading char: 's' at pos 955
+[lex] Starting identifier at pos 955
+[lex] Parsed identifier: smallFloat
+[lex] Added token: smallFloat at line 38, columns 7-16
+[lex] Reading char: ' ' at pos 965
+[lex] Reading char: '=' at pos 966
+[lex] Parsed single operator: =
+[lex] Added token: = at line 38, columns 18-17
+[lex] Reading char: ' ' at pos 967
+[lex] Reading char: '0' at pos 968
+[lex] Starting number at pos 968
+[lex] Parsed number: 0.00001
+[lex] Added token: 0.00001 at line 38, columns 20-26
+[lex] Reading char: ';' at pos 975
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 38, columns 27-26
+[lex] Reading char: '
+' at pos 976
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 977
+[lex] Starting identifier at pos 977
+[lex] Parsed identifier: int
+[lex] Added token: int at line 39, columns 1-3
+[lex] Reading char: ' ' at pos 980
+[lex] Reading char: 'n' at pos 981
+[lex] Starting identifier at pos 981
+[lex] Parsed identifier: negativeNumber
+[lex] Added token: negativeNumber at line 39, columns 5-18
+[lex] Reading char: ' ' at pos 995
+[lex] Reading char: '=' at pos 996
+[lex] Parsed single operator: =
+[lex] Added token: = at line 39, columns 20-19
+[lex] Reading char: ' ' at pos 997
+[lex] Reading char: '-' at pos 998
+[lex] Parsed single operator: -
+[lex] Added token: - at line 39, columns 22-21
+[lex] Reading char: '4' at pos 999
+[lex] Starting number at pos 999
+[lex] Parsed number: 42
+[lex] Added token: 42 at line 39, columns 23-24
+[lex] Reading char: ';' at pos 1001
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 39, columns 25-24
+[lex] Reading char: '
+' at pos 1002
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 1003
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 1004
+[lex] Parsed single operator: /
+[lex] Added token: / at line 41, columns 1-0
+[lex] Reading char: '/' at pos 1005
+[lex] Parsed single operator: /
+[lex] Added token: / at line 41, columns 2-1
+[lex] Reading char: ' ' at pos 1006
+[lex] Reading char: 'T' at pos 1007
+[lex] Starting identifier at pos 1007
+[lex] Parsed identifier: Testing
+[lex] Added token: Testing at line 41, columns 4-10
+[lex] Reading char: ' ' at pos 1014
+[lex] Reading char: 'i' at pos 1015
+[lex] Starting identifier at pos 1015
+[lex] Parsed identifier: identifiers
+[lex] Added token: identifiers at line 41, columns 12-22
+[lex] Reading char: '
+' at pos 1026
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 1027
+[lex] Starting identifier at pos 1027
+[lex] Parsed identifier: int
+[lex] Added token: int at line 42, columns 1-3
+[lex] Reading char: ' ' at pos 1030
+[lex] Reading char: 'c' at pos 1031
+[lex] Starting identifier at pos 1031
+[lex] Parsed identifier: camelCaseVar
+[lex] Added token: camelCaseVar at line 42, columns 5-16
+[lex] Reading char: ' ' at pos 1043
+[lex] Reading char: '=' at pos 1044
+[lex] Parsed single operator: =
+[lex] Added token: = at line 42, columns 18-17
+[lex] Reading char: ' ' at pos 1045
+[lex] Reading char: '1' at pos 1046
+[lex] Starting number at pos 1046
+[lex] Parsed number: 10
+[lex] Added token: 10 at line 42, columns 20-21
+[lex] Reading char: ';' at pos 1048
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 42, columns 22-21
+[lex] Reading char: '
+' at pos 1049
+[lex] Newline detected.
+[lex] Reading char: 's' at pos 1050
+[lex] Starting identifier at pos 1050
+[lex] Parsed identifier: string
+[lex] Added token: string at line 43, columns 1-6
+[lex] Reading char: ' ' at pos 1056
+[lex] Reading char: 's' at pos 1057
+[lex] Starting identifier at pos 1057
+[lex] Parsed identifier: snake_case_var
+[lex] Added token: snake_case_var at line 43, columns 8-21
+[lex] Reading char: ' ' at pos 1071
+[lex] Reading char: '=' at pos 1072
+[lex] Parsed single operator: =
+[lex] Added token: = at line 43, columns 23-22
+[lex] Reading char: ' ' at pos 1073
+[lex] Reading char: '"' at pos 1074
+[lex] Starting string literal.
+[lex] Parsed string: "Snake"
+[lex] Added token: "Snake" at line 43, columns 25-31
+[lex] Reading char: ';' at pos 1081
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 43, columns 32-31
+[lex] Reading char: '
+' at pos 1082
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 1083
+[lex] Starting identifier at pos 1083
+[lex] Parsed identifier: float
+[lex] Added token: float at line 44, columns 1-5
+[lex] Reading char: ' ' at pos 1088
+[lex] Reading char: '_' at pos 1089
+[lex] Starting identifier at pos 1089
+[lex] Parsed identifier: _leading_underscore
+[lex] Added token: _leading_underscore at line 44, columns 7-25
+[lex] Reading char: ' ' at pos 1108
+[lex] Reading char: '=' at pos 1109
+[lex] Parsed single operator: =
+[lex] Added token: = at line 44, columns 27-26
+[lex] Reading char: ' ' at pos 1110
+[lex] Reading char: '1' at pos 1111
+[lex] Starting number at pos 1111
+[lex] Parsed number: 1.5
+[lex] Added token: 1.5 at line 44, columns 29-31
+[lex] Reading char: ';' at pos 1114
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 44, columns 32-31
+[lex] Reading char: '
+' at pos 1115
+[lex] Newline detected.
+[lex] Reading char: 'c' at pos 1116
+[lex] Starting identifier at pos 1116
+[lex] Parsed identifier: char
+[lex] Added token: char at line 45, columns 1-4
+[lex] Reading char: ' ' at pos 1120
+[lex] Reading char: 'i' at pos 1121
+[lex] Starting identifier at pos 1121
+[lex] Parsed identifier: identifier123
+[lex] Added token: identifier123 at line 45, columns 6-18
+[lex] Reading char: ' ' at pos 1134
+[lex] Reading char: '=' at pos 1135
+[lex] Parsed single operator: =
+[lex] Added token: = at line 45, columns 20-19
+[lex] Reading char: ' ' at pos 1136
+[lex] Reading char: ''' at pos 1137
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 45, columns 22-21
+[lex] Reading char: 'X' at pos 1138
+[lex] Starting identifier at pos 1138
+[lex] Parsed identifier: X
+[lex] Added token: X at line 45, columns 23-23
+[lex] Reading char: ''' at pos 1139
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 45, columns 24-23
+[lex] Reading char: ';' at pos 1140
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 45, columns 25-24
+[lex] Reading char: '
+' at pos 1141
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 1142
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 1143
+[lex] Parsed single operator: /
+[lex] Added token: / at line 47, columns 1-0
+[lex] Reading char: '/' at pos 1144
+[lex] Parsed single operator: /
+[lex] Added token: / at line 47, columns 2-1
+[lex] Reading char: ' ' at pos 1145
+[lex] Reading char: 'T' at pos 1146
+[lex] Starting identifier at pos 1146
+[lex] Parsed identifier: Testing
+[lex] Added token: Testing at line 47, columns 4-10
+[lex] Reading char: ' ' at pos 1153
+[lex] Reading char: 'o' at pos 1154
+[lex] Starting identifier at pos 1154
+[lex] Parsed identifier: operators
+[lex] Added token: operators at line 47, columns 12-20
+[lex] Reading char: '
+' at pos 1163
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 1164
+[lex] Starting identifier at pos 1164
+[lex] Parsed identifier: int
+[lex] Added token: int at line 48, columns 1-3
+[lex] Reading char: ' ' at pos 1167
+[lex] Reading char: 'a' at pos 1168
+[lex] Starting identifier at pos 1168
+[lex] Parsed identifier: a
+[lex] Added token: a at line 48, columns 5-5
+[lex] Reading char: ' ' at pos 1169
+[lex] Reading char: '=' at pos 1170
+[lex] Parsed single operator: =
+[lex] Added token: = at line 48, columns 7-6
+[lex] Reading char: ' ' at pos 1171
+[lex] Reading char: '5' at pos 1172
+[lex] Starting number at pos 1172
+[lex] Parsed number: 5
+[lex] Added token: 5 at line 48, columns 9-9
+[lex] Reading char: ';' at pos 1173
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 48, columns 10-9
+[lex] Reading char: '
+' at pos 1174
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 1175
+[lex] Starting identifier at pos 1175
+[lex] Parsed identifier: int
+[lex] Added token: int at line 49, columns 1-3
+[lex] Reading char: ' ' at pos 1178
+[lex] Reading char: 'b' at pos 1179
+[lex] Starting identifier at pos 1179
+[lex] Parsed identifier: b
+[lex] Added token: b at line 49, columns 5-5
+[lex] Reading char: ' ' at pos 1180
+[lex] Reading char: '=' at pos 1181
+[lex] Parsed single operator: =
+[lex] Added token: = at line 49, columns 7-6
+[lex] Reading char: ' ' at pos 1182
+[lex] Reading char: '3' at pos 1183
+[lex] Starting number at pos 1183
+[lex] Parsed number: 3
+[lex] Added token: 3 at line 49, columns 9-9
+[lex] Reading char: ';' at pos 1184
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 49, columns 10-9
+[lex] Reading char: '
+' at pos 1185
+[lex] Newline detected.
+[lex] Reading char: 'b' at pos 1186
+[lex] Starting identifier at pos 1186
+[lex] Parsed identifier: bool
+[lex] Added token: bool at line 50, columns 1-4
+[lex] Reading char: ' ' at pos 1190
+[lex] Reading char: 'l' at pos 1191
+[lex] Starting identifier at pos 1191
+[lex] Parsed identifier: logicalTest
+[lex] Added token: logicalTest at line 50, columns 6-16
+[lex] Reading char: ' ' at pos 1202
+[lex] Reading char: '=' at pos 1203
+[lex] Parsed single operator: =
+[lex] Added token: = at line 50, columns 18-17
+[lex] Reading char: ' ' at pos 1204
+[lex] Reading char: '(' at pos 1205
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 50, columns 20-19
+[lex] Reading char: 'a' at pos 1206
+[lex] Starting identifier at pos 1206
+[lex] Parsed identifier: a
+[lex] Added token: a at line 50, columns 21-21
+[lex] Reading char: ' ' at pos 1207
+[lex] Reading char: '>' at pos 1208
+[lex] Parsed single operator: >
+[lex] Added token: > at line 50, columns 23-22
+[lex] Reading char: ' ' at pos 1209
+[lex] Reading char: 'b' at pos 1210
+[lex] Starting identifier at pos 1210
+[lex] Parsed identifier: b
+[lex] Added token: b at line 50, columns 25-25
+[lex] Reading char: ')' at pos 1211
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 50, columns 26-25
+[lex] Reading char: ' ' at pos 1212
+[lex] Reading char: '&' at pos 1213
+[lex] Parsed double operator: &&
+[lex] Added token: && at line 50, columns 28-27
+[lex] Reading char: ' ' at pos 1215
+[lex] Reading char: '(' at pos 1216
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 50, columns 31-30
+[lex] Reading char: 'a' at pos 1217
+[lex] Starting identifier at pos 1217
+[lex] Parsed identifier: a
+[lex] Added token: a at line 50, columns 32-32
+[lex] Reading char: ' ' at pos 1218
+[lex] Reading char: '!' at pos 1219
+[lex] Parsed double operator: !=
+[lex] Added token: != at line 50, columns 34-33
+[lex] Reading char: ' ' at pos 1221
+[lex] Reading char: 'b' at pos 1222
+[lex] Starting identifier at pos 1222
+[lex] Parsed identifier: b
+[lex] Added token: b at line 50, columns 37-37
+[lex] Reading char: ')' at pos 1223
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 50, columns 38-37
+[lex] Reading char: ' ' at pos 1224
+[lex] Reading char: '|' at pos 1225
+[lex] Parsed double operator: ||
+[lex] Added token: || at line 50, columns 40-39
+[lex] Reading char: ' ' at pos 1227
+[lex] Reading char: '(' at pos 1228
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 50, columns 43-42
+[lex] Reading char: 'b' at pos 1229
+[lex] Starting identifier at pos 1229
+[lex] Parsed identifier: b
+[lex] Added token: b at line 50, columns 44-44
+[lex] Reading char: ' ' at pos 1230
+[lex] Reading char: '<' at pos 1231
+[lex] Parsed double operator: <=
+[lex] Added token: <= at line 50, columns 46-45
+[lex] Reading char: ' ' at pos 1233
+[lex] Reading char: 'a' at pos 1234
+[lex] Starting identifier at pos 1234
+[lex] Parsed identifier: a
+[lex] Added token: a at line 50, columns 49-49
+[lex] Reading char: ')' at pos 1235
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 50, columns 50-49
+[lex] Reading char: ';' at pos 1236
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 50, columns 51-50
+[lex] Reading char: '
+' at pos 1237
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 1238
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 1239
+[lex] Parsed single operator: /
+[lex] Added token: / at line 52, columns 1-0
+[lex] Reading char: '/' at pos 1240
+[lex] Parsed single operator: /
+[lex] Added token: / at line 52, columns 2-1
+[lex] Reading char: ' ' at pos 1241
+[lex] Reading char: 'E' at pos 1242
+[lex] Starting identifier at pos 1242
+[lex] Parsed identifier: Edge
+[lex] Added token: Edge at line 52, columns 4-7
+[lex] Reading char: ' ' at pos 1246
+[lex] Reading char: 'c' at pos 1247
+[lex] Starting identifier at pos 1247
+[lex] Parsed identifier: cases
+[lex] Added token: cases at line 52, columns 9-13
+[lex] Reading char: ' ' at pos 1252
+[lex] Reading char: 'a' at pos 1253
+[lex] Starting identifier at pos 1253
+[lex] Parsed identifier: and
+[lex] Added token: and at line 52, columns 15-17
+[lex] Reading char: ' ' at pos 1256
+[lex] Reading char: 'p' at pos 1257
+[lex] Starting identifier at pos 1257
+[lex] Parsed identifier: potential
+[lex] Added token: potential at line 52, columns 19-27
+[lex] Reading char: ' ' at pos 1266
+[lex] Reading char: 'c' at pos 1267
+[lex] Starting identifier at pos 1267
+[lex] Parsed identifier: challenges
+[lex] Added token: challenges at line 52, columns 29-38
+[lex] Reading char: '
+' at pos 1277
+[lex] Newline detected.
+[lex] Reading char: 's' at pos 1278
+[lex] Starting identifier at pos 1278
+[lex] Parsed identifier: string
+[lex] Added token: string at line 53, columns 1-6
+[lex] Reading char: ' ' at pos 1284
+[lex] Reading char: 'e' at pos 1285
+[lex] Starting identifier at pos 1285
+[lex] Parsed identifier: emptyString
+[lex] Added token: emptyString at line 53, columns 8-18
+[lex] Reading char: ' ' at pos 1296
+[lex] Reading char: '=' at pos 1297
+[lex] Parsed single operator: =
+[lex] Added token: = at line 53, columns 20-19
+[lex] Reading char: ' ' at pos 1298
+[lex] Reading char: '"' at pos 1299
+[lex] Starting string literal.
+[lex] Parsed string: ""
+[lex] Added token: "" at line 53, columns 22-23
+[lex] Reading char: ';' at pos 1301
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 53, columns 24-23
+[lex] Reading char: '
+' at pos 1302
+[lex] Newline detected.
+[lex] Reading char: 'c' at pos 1303
+[lex] Starting identifier at pos 1303
+[lex] Parsed identifier: char
+[lex] Added token: char at line 54, columns 1-4
+[lex] Reading char: ' ' at pos 1307
+[lex] Reading char: 'n' at pos 1308
+[lex] Starting identifier at pos 1308
+[lex] Parsed identifier: newlineChar
+[lex] Added token: newlineChar at line 54, columns 6-16
+[lex] Reading char: ' ' at pos 1319
+[lex] Reading char: '=' at pos 1320
+[lex] Parsed single operator: =
+[lex] Added token: = at line 54, columns 18-17
+[lex] Reading char: ' ' at pos 1321
+[lex] Reading char: ''' at pos 1322
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 54, columns 20-19
+[lex] Reading char: '\' at pos 1323
+[lex] Unknown character encountered: \
+[lex] Added token: \ at line 54, columns 21-20
+[lex] Reading char: 'n' at pos 1324
+[lex] Starting identifier at pos 1324
+[lex] Parsed identifier: n
+[lex] Added token: n at line 54, columns 22-22
+[lex] Reading char: ''' at pos 1325
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 54, columns 23-22
+[lex] Reading char: ';' at pos 1326
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 54, columns 24-23
+[lex] Reading char: '
+' at pos 1327
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 1328
+[lex] Starting identifier at pos 1328
+[lex] Parsed identifier: float
+[lex] Added token: float at line 55, columns 1-5
+[lex] Reading char: ' ' at pos 1333
+[lex] Reading char: 'i' at pos 1334
+[lex] Starting identifier at pos 1334
+[lex] Parsed identifier: invalidNumber
+[lex] Added token: invalidNumber at line 55, columns 7-19
+[lex] Reading char: ' ' at pos 1347
+[lex] Reading char: '=' at pos 1348
+[lex] Parsed single operator: =
+[lex] Added token: = at line 55, columns 21-20
+[lex] Reading char: ' ' at pos 1349
+[lex] Reading char: '3' at pos 1350
+[lex] Starting number at pos 1350
+[lex] Second decimal point detected, breaking float parse.
+[lex] Parsed number: 3.14
+[lex] Added token: 3.14 at line 55, columns 23-26
+[lex] Reading char: '.' at pos 1354
+[lex] Unknown character encountered: .
+[lex] Added token: . at line 55, columns 27-26
+[lex] Reading char: '1' at pos 1355
+[lex] Starting number at pos 1355
+[lex] Parsed number: 15
+[lex] Added token: 15 at line 55, columns 28-29
+[lex] Reading char: ';' at pos 1357
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 55, columns 30-29
+[lex] Reading char: ' ' at pos 1358
+[lex] Reading char: ' ' at pos 1359
+[lex] Reading char: '/' at pos 1360
+[lex] Parsed single operator: /
+[lex] Added token: / at line 55, columns 33-32
+[lex] Reading char: '/' at pos 1361
+[lex] Parsed single operator: /
+[lex] Added token: / at line 55, columns 34-33
+[lex] Reading char: ' ' at pos 1362
+[lex] Reading char: 'T' at pos 1363
+[lex] Starting identifier at pos 1363
+[lex] Parsed identifier: This
+[lex] Added token: This at line 55, columns 36-39
+[lex] Reading char: ' ' at pos 1367
+[lex] Reading char: 's' at pos 1368
+[lex] Starting identifier at pos 1368
+[lex] Parsed identifier: should
+[lex] Added token: should at line 55, columns 41-46
+[lex] Reading char: ' ' at pos 1374
+[lex] Reading char: 'p' at pos 1375
+[lex] Starting identifier at pos 1375
+[lex] Parsed identifier: probably
+[lex] Added token: probably at line 55, columns 48-55
+[lex] Reading char: ' ' at pos 1383
+[lex] Reading char: 'b' at pos 1384
+[lex] Starting identifier at pos 1384
+[lex] Parsed identifier: be
+[lex] Added token: be at line 55, columns 57-58
+[lex] Reading char: ' ' at pos 1386
+[lex] Reading char: 'f' at pos 1387
+[lex] Starting identifier at pos 1387
+[lex] Parsed identifier: flagged
+[lex] Added token: flagged at line 55, columns 60-66
+[lex] Reading char: ' ' at pos 1394
+[lex] Reading char: 'a' at pos 1395
+[lex] Starting identifier at pos 1395
+[lex] Parsed identifier: as
+[lex] Added token: as at line 55, columns 68-69
+[lex] Reading char: ' ' at pos 1397
+[lex] Reading char: 'a' at pos 1398
+[lex] Starting identifier at pos 1398
+[lex] Parsed identifier: an
+[lex] Added token: an at line 55, columns 71-72
+[lex] Reading char: ' ' at pos 1400
+[lex] Reading char: 'e' at pos 1401
+[lex] Starting identifier at pos 1401
+[lex] Parsed identifier: error
+[lex] Added token: error at line 55, columns 74-78
+[lex] Reading char: '
+' at pos 1406
+[lex] Newline detected.
+[lex] Reading char: 's' at pos 1407
+[lex] Starting identifier at pos 1407
+[lex] Parsed identifier: string
+[lex] Added token: string at line 56, columns 1-6
+[lex] Reading char: ' ' at pos 1413
+[lex] Reading char: 'u' at pos 1414
+[lex] Starting identifier at pos 1414
+[lex] Parsed identifier: unterminatedString
+[lex] Added token: unterminatedString at line 56, columns 8-25
+[lex] Reading char: ' ' at pos 1432
+[lex] Reading char: '=' at pos 1433
+[lex] Parsed single operator: =
+[lex] Added token: = at line 56, columns 27-26
+[lex] Reading char: ' ' at pos 1434
+[lex] Reading char: '"' at pos 1435
+[lex] Starting string literal.
+[lex] Unterminated string literal!
+[lex] Lexical analysis complete. Total tokens: 335
+[save_tokens] Saving tokens:
+[save_tokens] Successfully opened file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Successfully closed the file.
+[lex] Starting lexical analysis.
+[lex] Reading char: '/' at pos 0
+[lex] Parsed single operator: /
+[lex] Added token: / at line 1, columns 1-0
+[lex] Reading char: '/' at pos 1
+[lex] Parsed single operator: /
+[lex] Added token: / at line 1, columns 2-1
+[lex] Reading char: ' ' at pos 2
+[lex] Reading char: 'T' at pos 3
+[lex] Starting identifier at pos 3
+[lex] Parsed identifier: This
+[lex] Added token: This at line 1, columns 4-7
+[lex] Reading char: ' ' at pos 7
+[lex] Reading char: 'i' at pos 8
+[lex] Starting identifier at pos 8
+[lex] Parsed identifier: is
+[lex] Added token: is at line 1, columns 9-10
+[lex] Reading char: ' ' at pos 10
+[lex] Reading char: 'a' at pos 11
+[lex] Starting identifier at pos 11
+[lex] Parsed identifier: a
+[lex] Added token: a at line 1, columns 12-12
+[lex] Reading char: ' ' at pos 12
+[lex] Reading char: 's' at pos 13
+[lex] Starting identifier at pos 13
+[lex] Parsed identifier: sample
+[lex] Added token: sample at line 1, columns 14-19
+[lex] Reading char: ' ' at pos 19
+[lex] Reading char: 'i' at pos 20
+[lex] Starting identifier at pos 20
+[lex] Parsed identifier: input
+[lex] Added token: input at line 1, columns 21-25
+[lex] Reading char: ' ' at pos 25
+[lex] Reading char: 'f' at pos 26
+[lex] Starting identifier at pos 26
+[lex] Parsed identifier: file
+[lex] Added token: file at line 1, columns 27-30
+[lex] Reading char: ' ' at pos 30
+[lex] Reading char: 'f' at pos 31
+[lex] Starting identifier at pos 31
+[lex] Parsed identifier: for
+[lex] Added token: for at line 1, columns 32-34
+[lex] Reading char: ' ' at pos 34
+[lex] Reading char: 't' at pos 35
+[lex] Starting identifier at pos 35
+[lex] Parsed identifier: the
+[lex] Added token: the at line 1, columns 36-38
+[lex] Reading char: ' ' at pos 38
+[lex] Reading char: 'B' at pos 39
+[lex] Starting identifier at pos 39
+[lex] Parsed identifier: Bassil
+[lex] Added token: Bassil at line 1, columns 40-45
+[lex] Reading char: ' ' at pos 45
+[lex] Reading char: 'l' at pos 46
+[lex] Starting identifier at pos 46
+[lex] Parsed identifier: language
+[lex] Added token: language at line 1, columns 47-54
+[lex] Reading char: ' ' at pos 54
+[lex] Reading char: 'l' at pos 55
+[lex] Starting identifier at pos 55
+[lex] Parsed identifier: lexer
+[lex] Added token: lexer at line 1, columns 56-60
+[lex] Reading char: '
+' at pos 60
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 61
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 62
+[lex] Parsed single operator: /
+[lex] Added token: / at line 3, columns 1-0
+[lex] Reading char: '/' at pos 63
+[lex] Parsed single operator: /
+[lex] Added token: / at line 3, columns 2-1
+[lex] Reading char: ' ' at pos 64
+[lex] Reading char: 'B' at pos 65
+[lex] Starting identifier at pos 65
+[lex] Parsed identifier: Basic
+[lex] Added token: Basic at line 3, columns 4-8
+[lex] Reading char: ' ' at pos 70
+[lex] Reading char: 'v' at pos 71
+[lex] Starting identifier at pos 71
+[lex] Parsed identifier: variable
+[lex] Added token: variable at line 3, columns 10-17
+[lex] Reading char: ' ' at pos 79
+[lex] Reading char: 'd' at pos 80
+[lex] Starting identifier at pos 80
+[lex] Parsed identifier: declarations
+[lex] Added token: declarations at line 3, columns 19-30
+[lex] Reading char: ' ' at pos 92
+[lex] Reading char: 'a' at pos 93
+[lex] Starting identifier at pos 93
+[lex] Parsed identifier: and
+[lex] Added token: and at line 3, columns 32-34
+[lex] Reading char: ' ' at pos 96
+[lex] Reading char: 'a' at pos 97
+[lex] Starting identifier at pos 97
+[lex] Parsed identifier: assignments
+[lex] Added token: assignments at line 3, columns 36-46
+[lex] Reading char: '
+' at pos 108
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 109
+[lex] Starting identifier at pos 109
+[lex] Parsed identifier: int
+[lex] Added token: int at line 4, columns 1-3
+[lex] Reading char: ' ' at pos 112
+[lex] Reading char: 'x' at pos 113
+[lex] Starting identifier at pos 113
+[lex] Parsed identifier: x
+[lex] Added token: x at line 4, columns 5-5
+[lex] Reading char: ' ' at pos 114
+[lex] Reading char: '=' at pos 115
+[lex] Parsed single operator: =
+[lex] Added token: = at line 4, columns 7-6
+[lex] Reading char: ' ' at pos 116
+[lex] Reading char: '5' at pos 117
+[lex] Starting number at pos 117
+[lex] Parsed number: 5
+[lex] Added token: 5 at line 4, columns 9-9
+[lex] Reading char: ';' at pos 118
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 4, columns 10-9
+[lex] Reading char: '
+' at pos 119
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 120
+[lex] Starting identifier at pos 120
+[lex] Parsed identifier: float
+[lex] Added token: float at line 5, columns 1-5
+[lex] Reading char: ' ' at pos 125
+[lex] Reading char: 'p' at pos 126
+[lex] Starting identifier at pos 126
+[lex] Parsed identifier: pi
+[lex] Added token: pi at line 5, columns 7-8
+[lex] Reading char: ' ' at pos 128
+[lex] Reading char: '=' at pos 129
+[lex] Parsed single operator: =
+[lex] Added token: = at line 5, columns 10-9
+[lex] Reading char: ' ' at pos 130
+[lex] Reading char: '3' at pos 131
+[lex] Starting number at pos 131
+[lex] Parsed number: 3.14159
+[lex] Added token: 3.14159 at line 5, columns 12-18
+[lex] Reading char: ';' at pos 138
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 5, columns 19-18
+[lex] Reading char: '
+' at pos 139
+[lex] Newline detected.
+[lex] Reading char: 'c' at pos 140
+[lex] Starting identifier at pos 140
+[lex] Parsed identifier: char
+[lex] Added token: char at line 6, columns 1-4
+[lex] Reading char: ' ' at pos 144
+[lex] Reading char: 'i' at pos 145
+[lex] Starting identifier at pos 145
+[lex] Parsed identifier: initial
+[lex] Added token: initial at line 6, columns 6-12
+[lex] Reading char: ' ' at pos 152
+[lex] Reading char: '=' at pos 153
+[lex] Parsed single operator: =
+[lex] Added token: = at line 6, columns 14-13
+[lex] Reading char: ' ' at pos 154
+[lex] Reading char: ''' at pos 155
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 6, columns 16-15
+[lex] Reading char: 'A' at pos 156
+[lex] Starting identifier at pos 156
+[lex] Parsed identifier: A
+[lex] Added token: A at line 6, columns 17-17
+[lex] Reading char: ''' at pos 157
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 6, columns 18-17
+[lex] Reading char: ';' at pos 158
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 6, columns 19-18
+[lex] Reading char: '
+' at pos 159
+[lex] Newline detected.
+[lex] Reading char: 's' at pos 160
+[lex] Starting identifier at pos 160
+[lex] Parsed identifier: string
+[lex] Added token: string at line 7, columns 1-6
+[lex] Reading char: ' ' at pos 166
+[lex] Reading char: 'g' at pos 167
+[lex] Starting identifier at pos 167
+[lex] Parsed identifier: greeting
+[lex] Added token: greeting at line 7, columns 8-15
+[lex] Reading char: ' ' at pos 175
+[lex] Reading char: '=' at pos 176
+[lex] Parsed single operator: =
+[lex] Added token: = at line 7, columns 17-16
+[lex] Reading char: ' ' at pos 177
+[lex] Reading char: '"' at pos 178
+[lex] Starting string literal.
+[lex] Parsed string: "Hello, World!"
+[lex] Added token: "Hello, World!" at line 7, columns 19-33
+[lex] Reading char: ';' at pos 193
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 7, columns 34-33
+[lex] Reading char: '
+' at pos 194
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 195
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 196
+[lex] Parsed single operator: /
+[lex] Added token: / at line 9, columns 1-0
+[lex] Reading char: '/' at pos 197
+[lex] Parsed single operator: /
+[lex] Added token: / at line 9, columns 2-1
+[lex] Reading char: ' ' at pos 198
+[lex] Reading char: 'A' at pos 199
+[lex] Starting identifier at pos 199
+[lex] Parsed identifier: Arithmetic
+[lex] Added token: Arithmetic at line 9, columns 4-13
+[lex] Reading char: ' ' at pos 209
+[lex] Reading char: 'o' at pos 210
+[lex] Starting identifier at pos 210
+[lex] Parsed identifier: operations
+[lex] Added token: operations at line 9, columns 15-24
+[lex] Reading char: '
+' at pos 220
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 221
+[lex] Starting identifier at pos 221
+[lex] Parsed identifier: int
+[lex] Added token: int at line 10, columns 1-3
+[lex] Reading char: ' ' at pos 224
+[lex] Reading char: 'r' at pos 225
+[lex] Starting identifier at pos 225
+[lex] Parsed identifier: result
+[lex] Added token: result at line 10, columns 5-10
+[lex] Reading char: ' ' at pos 231
+[lex] Reading char: '=' at pos 232
+[lex] Parsed single operator: =
+[lex] Added token: = at line 10, columns 12-11
+[lex] Reading char: ' ' at pos 233
+[lex] Reading char: '(' at pos 234
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 10, columns 14-13
+[lex] Reading char: '1' at pos 235
+[lex] Starting number at pos 235
+[lex] Parsed number: 10
+[lex] Added token: 10 at line 10, columns 15-16
+[lex] Reading char: ' ' at pos 237
+[lex] Reading char: '+' at pos 238
+[lex] Parsed single operator: +
+[lex] Added token: + at line 10, columns 18-17
+[lex] Reading char: ' ' at pos 239
+[lex] Reading char: '2' at pos 240
+[lex] Starting number at pos 240
+[lex] Parsed number: 20
+[lex] Added token: 20 at line 10, columns 20-21
+[lex] Reading char: ')' at pos 242
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 10, columns 22-21
+[lex] Reading char: ' ' at pos 243
+[lex] Reading char: '*' at pos 244
+[lex] Parsed single operator: *
+[lex] Added token: * at line 10, columns 24-23
+[lex] Reading char: ' ' at pos 245
+[lex] Reading char: '3' at pos 246
+[lex] Starting number at pos 246
+[lex] Parsed number: 3
+[lex] Added token: 3 at line 10, columns 26-26
+[lex] Reading char: ' ' at pos 247
+[lex] Reading char: '/' at pos 248
+[lex] Parsed single operator: /
+[lex] Added token: / at line 10, columns 28-27
+[lex] Reading char: ' ' at pos 249
+[lex] Reading char: '2' at pos 250
+[lex] Starting number at pos 250
+[lex] Parsed number: 2
+[lex] Added token: 2 at line 10, columns 30-30
+[lex] Reading char: ' ' at pos 251
+[lex] Reading char: '-' at pos 252
+[lex] Parsed single operator: -
+[lex] Added token: - at line 10, columns 32-31
+[lex] Reading char: ' ' at pos 253
+[lex] Reading char: '5' at pos 254
+[lex] Starting number at pos 254
+[lex] Parsed number: 5
+[lex] Added token: 5 at line 10, columns 34-34
+[lex] Reading char: ';' at pos 255
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 10, columns 35-34
+[lex] Reading char: '
+' at pos 256
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 257
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 258
+[lex] Parsed single operator: /
+[lex] Added token: / at line 12, columns 1-0
+[lex] Reading char: '/' at pos 259
+[lex] Parsed single operator: /
+[lex] Added token: / at line 12, columns 2-1
+[lex] Reading char: ' ' at pos 260
+[lex] Reading char: 'L' at pos 261
+[lex] Starting identifier at pos 261
+[lex] Parsed identifier: Logical
+[lex] Added token: Logical at line 12, columns 4-10
+[lex] Reading char: ' ' at pos 268
+[lex] Reading char: 'a' at pos 269
+[lex] Starting identifier at pos 269
+[lex] Parsed identifier: and
+[lex] Added token: and at line 12, columns 12-14
+[lex] Reading char: ' ' at pos 272
+[lex] Reading char: 'c' at pos 273
+[lex] Starting identifier at pos 273
+[lex] Parsed identifier: comparison
+[lex] Added token: comparison at line 12, columns 16-25
+[lex] Reading char: ' ' at pos 283
+[lex] Reading char: 'o' at pos 284
+[lex] Starting identifier at pos 284
+[lex] Parsed identifier: operations
+[lex] Added token: operations at line 12, columns 27-36
+[lex] Reading char: '
+' at pos 294
+[lex] Newline detected.
+[lex] Reading char: 'b' at pos 295
+[lex] Starting identifier at pos 295
+[lex] Parsed identifier: bool
+[lex] Added token: bool at line 13, columns 1-4
+[lex] Reading char: ' ' at pos 299
+[lex] Reading char: 'i' at pos 300
+[lex] Starting identifier at pos 300
+[lex] Parsed identifier: isValid
+[lex] Added token: isValid at line 13, columns 6-12
+[lex] Reading char: ' ' at pos 307
+[lex] Reading char: '=' at pos 308
+[lex] Parsed single operator: =
+[lex] Added token: = at line 13, columns 14-13
+[lex] Reading char: ' ' at pos 309
+[lex] Reading char: '(' at pos 310
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 13, columns 16-15
+[lex] Reading char: 'x' at pos 311
+[lex] Starting identifier at pos 311
+[lex] Parsed identifier: x
+[lex] Added token: x at line 13, columns 17-17
+[lex] Reading char: ' ' at pos 312
+[lex] Reading char: '>' at pos 313
+[lex] Parsed single operator: >
+[lex] Added token: > at line 13, columns 19-18
+[lex] Reading char: ' ' at pos 314
+[lex] Reading char: '0' at pos 315
+[lex] Starting number at pos 315
+[lex] Parsed number: 0
+[lex] Added token: 0 at line 13, columns 21-21
+[lex] Reading char: ')' at pos 316
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 13, columns 22-21
+[lex] Reading char: ' ' at pos 317
+[lex] Reading char: '&' at pos 318
+[lex] Parsed double operator: &&
+[lex] Added token: && at line 13, columns 24-23
+[lex] Reading char: ' ' at pos 320
+[lex] Reading char: '(' at pos 321
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 13, columns 27-26
+[lex] Reading char: 'p' at pos 322
+[lex] Starting identifier at pos 322
+[lex] Parsed identifier: pi
+[lex] Added token: pi at line 13, columns 28-29
+[lex] Reading char: ' ' at pos 324
+[lex] Reading char: '<' at pos 325
+[lex] Parsed single operator: <
+[lex] Added token: < at line 13, columns 31-30
+[lex] Reading char: ' ' at pos 326
+[lex] Reading char: '4' at pos 327
+[lex] Starting number at pos 327
+[lex] Parsed number: 4.0
+[lex] Added token: 4.0 at line 13, columns 33-35
+[lex] Reading char: ')' at pos 330
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 13, columns 36-35
+[lex] Reading char: ' ' at pos 331
+[lex] Reading char: '|' at pos 332
+[lex] Parsed double operator: ||
+[lex] Added token: || at line 13, columns 38-37
+[lex] Reading char: ' ' at pos 334
+[lex] Reading char: '(' at pos 335
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 13, columns 41-40
+[lex] Reading char: 'i' at pos 336
+[lex] Starting identifier at pos 336
+[lex] Parsed identifier: initial
+[lex] Added token: initial at line 13, columns 42-48
+[lex] Reading char: ' ' at pos 343
+[lex] Reading char: '!' at pos 344
+[lex] Parsed double operator: !=
+[lex] Added token: != at line 13, columns 50-49
+[lex] Reading char: ' ' at pos 346
+[lex] Reading char: ''' at pos 347
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 13, columns 53-52
+[lex] Reading char: 'B' at pos 348
+[lex] Starting identifier at pos 348
+[lex] Parsed identifier: B
+[lex] Added token: B at line 13, columns 54-54
+[lex] Reading char: ''' at pos 349
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 13, columns 55-54
+[lex] Reading char: ')' at pos 350
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 13, columns 56-55
+[lex] Reading char: ';' at pos 351
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 13, columns 57-56
+[lex] Reading char: '
+' at pos 352
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 353
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 354
+[lex] Parsed single operator: /
+[lex] Added token: / at line 15, columns 1-0
+[lex] Reading char: '/' at pos 355
+[lex] Parsed single operator: /
+[lex] Added token: / at line 15, columns 2-1
+[lex] Reading char: ' ' at pos 356
+[lex] Reading char: 'C' at pos 357
+[lex] Starting identifier at pos 357
+[lex] Parsed identifier: Control
+[lex] Added token: Control at line 15, columns 4-10
+[lex] Reading char: ' ' at pos 364
+[lex] Reading char: 's' at pos 365
+[lex] Starting identifier at pos 365
+[lex] Parsed identifier: structures
+[lex] Added token: structures at line 15, columns 12-21
+[lex] Reading char: ' ' at pos 375
+[lex] Reading char: '(' at pos 376
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 15, columns 23-22
+[lex] Reading char: 'a' at pos 377
+[lex] Starting identifier at pos 377
+[lex] Parsed identifier: assuming
+[lex] Added token: assuming at line 15, columns 24-31
+[lex] Reading char: ' ' at pos 385
+[lex] Reading char: 't' at pos 386
+[lex] Starting identifier at pos 386
+[lex] Parsed identifier: they
+[lex] Added token: they at line 15, columns 33-36
+[lex] Reading char: ' ' at pos 390
+[lex] Reading char: 'a' at pos 391
+[lex] Starting identifier at pos 391
+[lex] Parsed identifier: are
+[lex] Added token: are at line 15, columns 38-40
+[lex] Reading char: ' ' at pos 394
+[lex] Reading char: 'p' at pos 395
+[lex] Starting identifier at pos 395
+[lex] Parsed identifier: part
+[lex] Added token: part at line 15, columns 42-45
+[lex] Reading char: ' ' at pos 399
+[lex] Reading char: 'o' at pos 400
+[lex] Starting identifier at pos 400
+[lex] Parsed identifier: of
+[lex] Added token: of at line 15, columns 47-48
+[lex] Reading char: ' ' at pos 402
+[lex] Reading char: 't' at pos 403
+[lex] Starting identifier at pos 403
+[lex] Parsed identifier: the
+[lex] Added token: the at line 15, columns 50-52
+[lex] Reading char: ' ' at pos 406
+[lex] Reading char: 'l' at pos 407
+[lex] Starting identifier at pos 407
+[lex] Parsed identifier: language
+[lex] Added token: language at line 15, columns 54-61
+[lex] Reading char: ')' at pos 415
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 15, columns 62-61
+[lex] Reading char: '
+' at pos 416
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 417
+[lex] Starting identifier at pos 417
+[lex] Parsed identifier: if
+[lex] Added token: if at line 16, columns 1-2
+[lex] Reading char: ' ' at pos 419
+[lex] Reading char: '(' at pos 420
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 16, columns 4-3
+[lex] Reading char: 'i' at pos 421
+[lex] Starting identifier at pos 421
+[lex] Parsed identifier: isValid
+[lex] Added token: isValid at line 16, columns 5-11
+[lex] Reading char: ')' at pos 428
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 16, columns 12-11
+[lex] Reading char: ' ' at pos 429
+[lex] Reading char: '{' at pos 430
+[lex] Parsed open brace.
+[lex] Added token: { at line 16, columns 14-13
+[lex] Reading char: '
+' at pos 431
+[lex] Newline detected.
+[lex] Reading char: ' ' at pos 432
+[lex] Reading char: ' ' at pos 433
+[lex] Reading char: ' ' at pos 434
+[lex] Reading char: ' ' at pos 435
+[lex] Reading char: 'p' at pos 436
+[lex] Starting identifier at pos 436
+[lex] Parsed identifier: print
+[lex] Added token: print at line 17, columns 5-9
+[lex] Reading char: '(' at pos 441
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 17, columns 10-9
+[lex] Reading char: '"' at pos 442
+[lex] Starting string literal.
+[lex] Parsed string: "The condition is true"
+[lex] Added token: "The condition is true" at line 17, columns 11-33
+[lex] Reading char: ')' at pos 465
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 17, columns 34-33
+[lex] Reading char: ';' at pos 466
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 17, columns 35-34
+[lex] Reading char: '
+' at pos 467
+[lex] Newline detected.
+[lex] Reading char: '}' at pos 468
+[lex] Parsed close brace.
+[lex] Added token: } at line 18, columns 1-0
+[lex] Reading char: ' ' at pos 469
+[lex] Reading char: 'e' at pos 470
+[lex] Starting identifier at pos 470
+[lex] Parsed identifier: else
+[lex] Added token: else at line 18, columns 3-6
+[lex] Reading char: ' ' at pos 474
+[lex] Reading char: '{' at pos 475
+[lex] Parsed open brace.
+[lex] Added token: { at line 18, columns 8-7
+[lex] Reading char: '
+' at pos 476
+[lex] Newline detected.
+[lex] Reading char: ' ' at pos 477
+[lex] Reading char: ' ' at pos 478
+[lex] Reading char: ' ' at pos 479
+[lex] Reading char: ' ' at pos 480
+[lex] Reading char: 'p' at pos 481
+[lex] Starting identifier at pos 481
+[lex] Parsed identifier: print
+[lex] Added token: print at line 19, columns 5-9
+[lex] Reading char: '(' at pos 486
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 19, columns 10-9
+[lex] Reading char: '"' at pos 487
+[lex] Starting string literal.
+[lex] Parsed string: "The condition is false"
+[lex] Added token: "The condition is false" at line 19, columns 11-34
+[lex] Reading char: ')' at pos 511
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 19, columns 35-34
+[lex] Reading char: ';' at pos 512
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 19, columns 36-35
+[lex] Reading char: '
+' at pos 513
+[lex] Newline detected.
+[lex] Reading char: '}' at pos 514
+[lex] Parsed close brace.
+[lex] Added token: } at line 20, columns 1-0
+[lex] Reading char: '
+' at pos 515
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 516
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 517
+[lex] Parsed single operator: /
+[lex] Added token: / at line 22, columns 1-0
+[lex] Reading char: '/' at pos 518
+[lex] Parsed single operator: /
+[lex] Added token: / at line 22, columns 2-1
+[lex] Reading char: ' ' at pos 519
+[lex] Reading char: 'L' at pos 520
+[lex] Starting identifier at pos 520
+[lex] Parsed identifier: Loop
+[lex] Added token: Loop at line 22, columns 4-7
+[lex] Reading char: ' ' at pos 524
+[lex] Reading char: 's' at pos 525
+[lex] Starting identifier at pos 525
+[lex] Parsed identifier: structure
+[lex] Added token: structure at line 22, columns 9-17
+[lex] Reading char: ' ' at pos 534
+[lex] Reading char: '(' at pos 535
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 22, columns 19-18
+[lex] Reading char: 'a' at pos 536
+[lex] Starting identifier at pos 536
+[lex] Parsed identifier: assuming
+[lex] Added token: assuming at line 22, columns 20-27
+[lex] Reading char: ' ' at pos 544
+[lex] Reading char: 'i' at pos 545
+[lex] Starting identifier at pos 545
+[lex] Parsed identifier: it
+[lex] Added token: it at line 22, columns 29-30
+[lex] Reading char: ''' at pos 547
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 22, columns 31-30
+[lex] Reading char: 's' at pos 548
+[lex] Starting identifier at pos 548
+[lex] Parsed identifier: s
+[lex] Added token: s at line 22, columns 32-32
+[lex] Reading char: ' ' at pos 549
+[lex] Reading char: 'p' at pos 550
+[lex] Starting identifier at pos 550
+[lex] Parsed identifier: part
+[lex] Added token: part at line 22, columns 34-37
+[lex] Reading char: ' ' at pos 554
+[lex] Reading char: 'o' at pos 555
+[lex] Starting identifier at pos 555
+[lex] Parsed identifier: of
+[lex] Added token: of at line 22, columns 39-40
+[lex] Reading char: ' ' at pos 557
+[lex] Reading char: 't' at pos 558
+[lex] Starting identifier at pos 558
+[lex] Parsed identifier: the
+[lex] Added token: the at line 22, columns 42-44
+[lex] Reading char: ' ' at pos 561
+[lex] Reading char: 'l' at pos 562
+[lex] Starting identifier at pos 562
+[lex] Parsed identifier: language
+[lex] Added token: language at line 22, columns 46-53
+[lex] Reading char: ')' at pos 570
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 22, columns 54-53
+[lex] Reading char: '
+' at pos 571
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 572
+[lex] Starting identifier at pos 572
+[lex] Parsed identifier: for
+[lex] Added token: for at line 23, columns 1-3
+[lex] Reading char: ' ' at pos 575
+[lex] Reading char: '(' at pos 576
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 23, columns 5-4
+[lex] Reading char: 'i' at pos 577
+[lex] Starting identifier at pos 577
+[lex] Parsed identifier: int
+[lex] Added token: int at line 23, columns 6-8
+[lex] Reading char: ' ' at pos 580
+[lex] Reading char: 'i' at pos 581
+[lex] Starting identifier at pos 581
+[lex] Parsed identifier: i
+[lex] Added token: i at line 23, columns 10-10
+[lex] Reading char: ' ' at pos 582
+[lex] Reading char: '=' at pos 583
+[lex] Parsed single operator: =
+[lex] Added token: = at line 23, columns 12-11
+[lex] Reading char: ' ' at pos 584
+[lex] Reading char: '0' at pos 585
+[lex] Starting number at pos 585
+[lex] Parsed number: 0
+[lex] Added token: 0 at line 23, columns 14-14
+[lex] Reading char: ';' at pos 586
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 23, columns 15-14
+[lex] Reading char: ' ' at pos 587
+[lex] Reading char: 'i' at pos 588
+[lex] Starting identifier at pos 588
+[lex] Parsed identifier: i
+[lex] Added token: i at line 23, columns 17-17
+[lex] Reading char: ' ' at pos 589
+[lex] Reading char: '<' at pos 590
+[lex] Parsed single operator: <
+[lex] Added token: < at line 23, columns 19-18
+[lex] Reading char: ' ' at pos 591
+[lex] Reading char: '1' at pos 592
+[lex] Starting number at pos 592
+[lex] Parsed number: 10
+[lex] Added token: 10 at line 23, columns 21-22
+[lex] Reading char: ';' at pos 594
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 23, columns 23-22
+[lex] Reading char: ' ' at pos 595
+[lex] Reading char: 'i' at pos 596
+[lex] Starting identifier at pos 596
+[lex] Parsed identifier: i
+[lex] Added token: i at line 23, columns 25-25
+[lex] Reading char: ' ' at pos 597
+[lex] Reading char: '=' at pos 598
+[lex] Parsed single operator: =
+[lex] Added token: = at line 23, columns 27-26
+[lex] Reading char: ' ' at pos 599
+[lex] Reading char: 'i' at pos 600
+[lex] Starting identifier at pos 600
+[lex] Parsed identifier: i
+[lex] Added token: i at line 23, columns 29-29
+[lex] Reading char: ' ' at pos 601
+[lex] Reading char: '+' at pos 602
+[lex] Parsed single operator: +
+[lex] Added token: + at line 23, columns 31-30
+[lex] Reading char: ' ' at pos 603
+[lex] Reading char: '1' at pos 604
+[lex] Starting number at pos 604
+[lex] Parsed number: 1
+[lex] Added token: 1 at line 23, columns 33-33
+[lex] Reading char: ')' at pos 605
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 23, columns 34-33
+[lex] Reading char: ' ' at pos 606
+[lex] Reading char: '{' at pos 607
+[lex] Parsed open brace.
+[lex] Added token: { at line 23, columns 36-35
+[lex] Reading char: '
+' at pos 608
+[lex] Newline detected.
+[lex] Reading char: ' ' at pos 609
+[lex] Reading char: ' ' at pos 610
+[lex] Reading char: ' ' at pos 611
+[lex] Reading char: ' ' at pos 612
+[lex] Reading char: 'p' at pos 613
+[lex] Starting identifier at pos 613
+[lex] Parsed identifier: print
+[lex] Added token: print at line 24, columns 5-9
+[lex] Reading char: '(' at pos 618
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 24, columns 10-9
+[lex] Reading char: 'i' at pos 619
+[lex] Starting identifier at pos 619
+[lex] Parsed identifier: i
+[lex] Added token: i at line 24, columns 11-11
+[lex] Reading char: ')' at pos 620
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 24, columns 12-11
+[lex] Reading char: ';' at pos 621
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 24, columns 13-12
+[lex] Reading char: '
+' at pos 622
+[lex] Newline detected.
+[lex] Reading char: '}' at pos 623
+[lex] Parsed close brace.
+[lex] Added token: } at line 25, columns 1-0
+[lex] Reading char: '
+' at pos 624
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 625
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 626
+[lex] Parsed single operator: /
+[lex] Added token: / at line 27, columns 1-0
+[lex] Reading char: '/' at pos 627
+[lex] Parsed single operator: /
+[lex] Added token: / at line 27, columns 2-1
+[lex] Reading char: ' ' at pos 628
+[lex] Reading char: 'F' at pos 629
+[lex] Starting identifier at pos 629
+[lex] Parsed identifier: Function
+[lex] Added token: Function at line 27, columns 4-11
+[lex] Reading char: ' ' at pos 637
+[lex] Reading char: 'd' at pos 638
+[lex] Starting identifier at pos 638
+[lex] Parsed identifier: definition
+[lex] Added token: definition at line 27, columns 13-22
+[lex] Reading char: ' ' at pos 648
+[lex] Reading char: '(' at pos 649
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 27, columns 24-23
+[lex] Reading char: 'a' at pos 650
+[lex] Starting identifier at pos 650
+[lex] Parsed identifier: assuming
+[lex] Added token: assuming at line 27, columns 25-32
+[lex] Reading char: ' ' at pos 658
+[lex] Reading char: 'i' at pos 659
+[lex] Starting identifier at pos 659
+[lex] Parsed identifier: it
+[lex] Added token: it at line 27, columns 34-35
+[lex] Reading char: ''' at pos 661
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 27, columns 36-35
+[lex] Reading char: 's' at pos 662
+[lex] Starting identifier at pos 662
+[lex] Parsed identifier: s
+[lex] Added token: s at line 27, columns 37-37
+[lex] Reading char: ' ' at pos 663
+[lex] Reading char: 'p' at pos 664
+[lex] Starting identifier at pos 664
+[lex] Parsed identifier: part
+[lex] Added token: part at line 27, columns 39-42
+[lex] Reading char: ' ' at pos 668
+[lex] Reading char: 'o' at pos 669
+[lex] Starting identifier at pos 669
+[lex] Parsed identifier: of
+[lex] Added token: of at line 27, columns 44-45
+[lex] Reading char: ' ' at pos 671
+[lex] Reading char: 't' at pos 672
+[lex] Starting identifier at pos 672
+[lex] Parsed identifier: the
+[lex] Added token: the at line 27, columns 47-49
+[lex] Reading char: ' ' at pos 675
+[lex] Reading char: 'l' at pos 676
+[lex] Starting identifier at pos 676
+[lex] Parsed identifier: language
+[lex] Added token: language at line 27, columns 51-58
+[lex] Reading char: ')' at pos 684
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 27, columns 59-58
+[lex] Reading char: '
+' at pos 685
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 686
+[lex] Starting identifier at pos 686
+[lex] Parsed identifier: function
+[lex] Added token: function at line 28, columns 1-8
+[lex] Reading char: ' ' at pos 694
+[lex] Reading char: 'i' at pos 695
+[lex] Starting identifier at pos 695
+[lex] Parsed identifier: int
+[lex] Added token: int at line 28, columns 10-12
+[lex] Reading char: ' ' at pos 698
+[lex] Reading char: 'f' at pos 699
+[lex] Starting identifier at pos 699
+[lex] Parsed identifier: factorial
+[lex] Added token: factorial at line 28, columns 14-22
+[lex] Reading char: '(' at pos 708
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 28, columns 23-22
+[lex] Reading char: 'i' at pos 709
+[lex] Starting identifier at pos 709
+[lex] Parsed identifier: int
+[lex] Added token: int at line 28, columns 24-26
+[lex] Reading char: ' ' at pos 712
+[lex] Reading char: 'n' at pos 713
+[lex] Starting identifier at pos 713
+[lex] Parsed identifier: n
+[lex] Added token: n at line 28, columns 28-28
+[lex] Reading char: ')' at pos 714
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 28, columns 29-28
+[lex] Reading char: ' ' at pos 715
+[lex] Reading char: '{' at pos 716
+[lex] Parsed open brace.
+[lex] Added token: { at line 28, columns 31-30
+[lex] Reading char: '
+' at pos 717
+[lex] Newline detected.
+[lex] Reading char: ' ' at pos 718
+[lex] Reading char: ' ' at pos 719
+[lex] Reading char: ' ' at pos 720
+[lex] Reading char: ' ' at pos 721
+[lex] Reading char: 'i' at pos 722
+[lex] Starting identifier at pos 722
+[lex] Parsed identifier: if
+[lex] Added token: if at line 29, columns 5-6
+[lex] Reading char: ' ' at pos 724
+[lex] Reading char: '(' at pos 725
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 29, columns 8-7
+[lex] Reading char: 'n' at pos 726
+[lex] Starting identifier at pos 726
+[lex] Parsed identifier: n
+[lex] Added token: n at line 29, columns 9-9
+[lex] Reading char: ' ' at pos 727
+[lex] Reading char: '<' at pos 728
+[lex] Parsed double operator: <=
+[lex] Added token: <= at line 29, columns 11-10
+[lex] Reading char: ' ' at pos 730
+[lex] Reading char: '1' at pos 731
+[lex] Starting number at pos 731
+[lex] Parsed number: 1
+[lex] Added token: 1 at line 29, columns 14-14
+[lex] Reading char: ')' at pos 732
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 29, columns 15-14
+[lex] Reading char: ' ' at pos 733
+[lex] Reading char: 'r' at pos 734
+[lex] Starting identifier at pos 734
+[lex] Parsed identifier: return
+[lex] Added token: return at line 29, columns 17-22
+[lex] Reading char: ' ' at pos 740
+[lex] Reading char: '1' at pos 741
+[lex] Starting number at pos 741
+[lex] Parsed number: 1
+[lex] Added token: 1 at line 29, columns 24-24
+[lex] Reading char: ';' at pos 742
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 29, columns 25-24
+[lex] Reading char: '
+' at pos 743
+[lex] Newline detected.
+[lex] Reading char: ' ' at pos 744
+[lex] Reading char: ' ' at pos 745
+[lex] Reading char: ' ' at pos 746
+[lex] Reading char: ' ' at pos 747
+[lex] Reading char: 'r' at pos 748
+[lex] Starting identifier at pos 748
+[lex] Parsed identifier: return
+[lex] Added token: return at line 30, columns 5-10
+[lex] Reading char: ' ' at pos 754
+[lex] Reading char: 'n' at pos 755
+[lex] Starting identifier at pos 755
+[lex] Parsed identifier: n
+[lex] Added token: n at line 30, columns 12-12
+[lex] Reading char: ' ' at pos 756
+[lex] Reading char: '*' at pos 757
+[lex] Parsed single operator: *
+[lex] Added token: * at line 30, columns 14-13
+[lex] Reading char: ' ' at pos 758
+[lex] Reading char: 'f' at pos 759
+[lex] Starting identifier at pos 759
+[lex] Parsed identifier: factorial
+[lex] Added token: factorial at line 30, columns 16-24
+[lex] Reading char: '(' at pos 768
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 30, columns 25-24
+[lex] Reading char: 'n' at pos 769
+[lex] Starting identifier at pos 769
+[lex] Parsed identifier: n
+[lex] Added token: n at line 30, columns 26-26
+[lex] Reading char: ' ' at pos 770
+[lex] Reading char: '-' at pos 771
+[lex] Parsed single operator: -
+[lex] Added token: - at line 30, columns 28-27
+[lex] Reading char: ' ' at pos 772
+[lex] Reading char: '1' at pos 773
+[lex] Starting number at pos 773
+[lex] Parsed number: 1
+[lex] Added token: 1 at line 30, columns 30-30
+[lex] Reading char: ')' at pos 774
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 30, columns 31-30
+[lex] Reading char: ';' at pos 775
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 30, columns 32-31
+[lex] Reading char: '
+' at pos 776
+[lex] Newline detected.
+[lex] Reading char: '}' at pos 777
+[lex] Parsed close brace.
+[lex] Added token: } at line 31, columns 1-0
+[lex] Reading char: '
+' at pos 778
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 779
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 780
+[lex] Parsed single operator: /
+[lex] Added token: / at line 33, columns 1-0
+[lex] Reading char: '/' at pos 781
+[lex] Parsed single operator: /
+[lex] Added token: / at line 33, columns 2-1
+[lex] Reading char: ' ' at pos 782
+[lex] Reading char: 'T' at pos 783
+[lex] Starting identifier at pos 783
+[lex] Parsed identifier: Testing
+[lex] Added token: Testing at line 33, columns 4-10
+[lex] Reading char: ' ' at pos 790
+[lex] Reading char: 's' at pos 791
+[lex] Starting identifier at pos 791
+[lex] Parsed identifier: string
+[lex] Added token: string at line 33, columns 12-17
+[lex] Reading char: ' ' at pos 797
+[lex] Reading char: 'w' at pos 798
+[lex] Starting identifier at pos 798
+[lex] Parsed identifier: with
+[lex] Added token: with at line 33, columns 19-22
+[lex] Reading char: ' ' at pos 802
+[lex] Reading char: 'e' at pos 803
+[lex] Starting identifier at pos 803
+[lex] Parsed identifier: escaped
+[lex] Added token: escaped at line 33, columns 24-30
+[lex] Reading char: ' ' at pos 810
+[lex] Reading char: 'c' at pos 811
+[lex] Starting identifier at pos 811
+[lex] Parsed identifier: characters
+[lex] Added token: characters at line 33, columns 32-41
+[lex] Reading char: '
+' at pos 821
+[lex] Newline detected.
+[lex] Reading char: 's' at pos 822
+[lex] Starting identifier at pos 822
+[lex] Parsed identifier: string
+[lex] Added token: string at line 34, columns 1-6
+[lex] Reading char: ' ' at pos 828
+[lex] Reading char: 's' at pos 829
+[lex] Starting identifier at pos 829
+[lex] Parsed identifier: specialString
+[lex] Added token: specialString at line 34, columns 8-20
+[lex] Reading char: ' ' at pos 842
+[lex] Reading char: '=' at pos 843
+[lex] Parsed single operator: =
+[lex] Added token: = at line 34, columns 22-21
+[lex] Reading char: ' ' at pos 844
+[lex] Reading char: '"' at pos 845
+[lex] Starting string literal.
+[lex] Escape sequence found.
+[lex] Escape sequence found.
+[lex] Escape sequence found.
+[lex] Escape sequence found.
+[lex] Parsed string: "This string has \"quotes\" and a newline\nand a tab\t"
+[lex] Added token: "This string has \"quotes\" and a newline\nand a tab\t" at line 34, columns 24-78
+[lex] Reading char: ';' at pos 900
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 34, columns 79-78
+[lex] Reading char: '
+' at pos 901
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 902
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 903
+[lex] Parsed single operator: /
+[lex] Added token: / at line 36, columns 1-0
+[lex] Reading char: '/' at pos 904
+[lex] Parsed single operator: /
+[lex] Added token: / at line 36, columns 2-1
+[lex] Reading char: ' ' at pos 905
+[lex] Reading char: 'T' at pos 906
+[lex] Starting identifier at pos 906
+[lex] Parsed identifier: Testing
+[lex] Added token: Testing at line 36, columns 4-10
+[lex] Reading char: ' ' at pos 913
+[lex] Reading char: 'n' at pos 914
+[lex] Starting identifier at pos 914
+[lex] Parsed identifier: numbers
+[lex] Added token: numbers at line 36, columns 12-18
+[lex] Reading char: '
+' at pos 921
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 922
+[lex] Starting identifier at pos 922
+[lex] Parsed identifier: int
+[lex] Added token: int at line 37, columns 1-3
+[lex] Reading char: ' ' at pos 925
+[lex] Reading char: 'l' at pos 926
+[lex] Starting identifier at pos 926
+[lex] Parsed identifier: largeNumber
+[lex] Added token: largeNumber at line 37, columns 5-15
+[lex] Reading char: ' ' at pos 937
+[lex] Reading char: '=' at pos 938
+[lex] Parsed single operator: =
+[lex] Added token: = at line 37, columns 17-16
+[lex] Reading char: ' ' at pos 939
+[lex] Reading char: '1' at pos 940
+[lex] Starting number at pos 940
+[lex] Parsed number: 1000000
+[lex] Added token: 1000000 at line 37, columns 19-25
+[lex] Reading char: ';' at pos 947
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 37, columns 26-25
+[lex] Reading char: '
+' at pos 948
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 949
+[lex] Starting identifier at pos 949
+[lex] Parsed identifier: float
+[lex] Added token: float at line 38, columns 1-5
+[lex] Reading char: ' ' at pos 954
+[lex] Reading char: 's' at pos 955
+[lex] Starting identifier at pos 955
+[lex] Parsed identifier: smallFloat
+[lex] Added token: smallFloat at line 38, columns 7-16
+[lex] Reading char: ' ' at pos 965
+[lex] Reading char: '=' at pos 966
+[lex] Parsed single operator: =
+[lex] Added token: = at line 38, columns 18-17
+[lex] Reading char: ' ' at pos 967
+[lex] Reading char: '0' at pos 968
+[lex] Starting number at pos 968
+[lex] Parsed number: 0.00001
+[lex] Added token: 0.00001 at line 38, columns 20-26
+[lex] Reading char: ';' at pos 975
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 38, columns 27-26
+[lex] Reading char: '
+' at pos 976
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 977
+[lex] Starting identifier at pos 977
+[lex] Parsed identifier: int
+[lex] Added token: int at line 39, columns 1-3
+[lex] Reading char: ' ' at pos 980
+[lex] Reading char: 'n' at pos 981
+[lex] Starting identifier at pos 981
+[lex] Parsed identifier: negativeNumber
+[lex] Added token: negativeNumber at line 39, columns 5-18
+[lex] Reading char: ' ' at pos 995
+[lex] Reading char: '=' at pos 996
+[lex] Parsed single operator: =
+[lex] Added token: = at line 39, columns 20-19
+[lex] Reading char: ' ' at pos 997
+[lex] Reading char: '-' at pos 998
+[lex] Parsed single operator: -
+[lex] Added token: - at line 39, columns 22-21
+[lex] Reading char: '4' at pos 999
+[lex] Starting number at pos 999
+[lex] Parsed number: 42
+[lex] Added token: 42 at line 39, columns 23-24
+[lex] Reading char: ';' at pos 1001
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 39, columns 25-24
+[lex] Reading char: '
+' at pos 1002
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 1003
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 1004
+[lex] Parsed single operator: /
+[lex] Added token: / at line 41, columns 1-0
+[lex] Reading char: '/' at pos 1005
+[lex] Parsed single operator: /
+[lex] Added token: / at line 41, columns 2-1
+[lex] Reading char: ' ' at pos 1006
+[lex] Reading char: 'T' at pos 1007
+[lex] Starting identifier at pos 1007
+[lex] Parsed identifier: Testing
+[lex] Added token: Testing at line 41, columns 4-10
+[lex] Reading char: ' ' at pos 1014
+[lex] Reading char: 'i' at pos 1015
+[lex] Starting identifier at pos 1015
+[lex] Parsed identifier: identifiers
+[lex] Added token: identifiers at line 41, columns 12-22
+[lex] Reading char: '
+' at pos 1026
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 1027
+[lex] Starting identifier at pos 1027
+[lex] Parsed identifier: int
+[lex] Added token: int at line 42, columns 1-3
+[lex] Reading char: ' ' at pos 1030
+[lex] Reading char: 'c' at pos 1031
+[lex] Starting identifier at pos 1031
+[lex] Parsed identifier: camelCaseVar
+[lex] Added token: camelCaseVar at line 42, columns 5-16
+[lex] Reading char: ' ' at pos 1043
+[lex] Reading char: '=' at pos 1044
+[lex] Parsed single operator: =
+[lex] Added token: = at line 42, columns 18-17
+[lex] Reading char: ' ' at pos 1045
+[lex] Reading char: '1' at pos 1046
+[lex] Starting number at pos 1046
+[lex] Parsed number: 10
+[lex] Added token: 10 at line 42, columns 20-21
+[lex] Reading char: ';' at pos 1048
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 42, columns 22-21
+[lex] Reading char: '
+' at pos 1049
+[lex] Newline detected.
+[lex] Reading char: 's' at pos 1050
+[lex] Starting identifier at pos 1050
+[lex] Parsed identifier: string
+[lex] Added token: string at line 43, columns 1-6
+[lex] Reading char: ' ' at pos 1056
+[lex] Reading char: 's' at pos 1057
+[lex] Starting identifier at pos 1057
+[lex] Parsed identifier: snake_case_var
+[lex] Added token: snake_case_var at line 43, columns 8-21
+[lex] Reading char: ' ' at pos 1071
+[lex] Reading char: '=' at pos 1072
+[lex] Parsed single operator: =
+[lex] Added token: = at line 43, columns 23-22
+[lex] Reading char: ' ' at pos 1073
+[lex] Reading char: '"' at pos 1074
+[lex] Starting string literal.
+[lex] Parsed string: "Snake"
+[lex] Added token: "Snake" at line 43, columns 25-31
+[lex] Reading char: ';' at pos 1081
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 43, columns 32-31
+[lex] Reading char: '
+' at pos 1082
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 1083
+[lex] Starting identifier at pos 1083
+[lex] Parsed identifier: float
+[lex] Added token: float at line 44, columns 1-5
+[lex] Reading char: ' ' at pos 1088
+[lex] Reading char: '_' at pos 1089
+[lex] Starting identifier at pos 1089
+[lex] Parsed identifier: _leading_underscore
+[lex] Added token: _leading_underscore at line 44, columns 7-25
+[lex] Reading char: ' ' at pos 1108
+[lex] Reading char: '=' at pos 1109
+[lex] Parsed single operator: =
+[lex] Added token: = at line 44, columns 27-26
+[lex] Reading char: ' ' at pos 1110
+[lex] Reading char: '1' at pos 1111
+[lex] Starting number at pos 1111
+[lex] Parsed number: 1.5
+[lex] Added token: 1.5 at line 44, columns 29-31
+[lex] Reading char: ';' at pos 1114
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 44, columns 32-31
+[lex] Reading char: '
+' at pos 1115
+[lex] Newline detected.
+[lex] Reading char: 'c' at pos 1116
+[lex] Starting identifier at pos 1116
+[lex] Parsed identifier: char
+[lex] Added token: char at line 45, columns 1-4
+[lex] Reading char: ' ' at pos 1120
+[lex] Reading char: 'i' at pos 1121
+[lex] Starting identifier at pos 1121
+[lex] Parsed identifier: identifier123
+[lex] Added token: identifier123 at line 45, columns 6-18
+[lex] Reading char: ' ' at pos 1134
+[lex] Reading char: '=' at pos 1135
+[lex] Parsed single operator: =
+[lex] Added token: = at line 45, columns 20-19
+[lex] Reading char: ' ' at pos 1136
+[lex] Reading char: ''' at pos 1137
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 45, columns 22-21
+[lex] Reading char: 'X' at pos 1138
+[lex] Starting identifier at pos 1138
+[lex] Parsed identifier: X
+[lex] Added token: X at line 45, columns 23-23
+[lex] Reading char: ''' at pos 1139
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 45, columns 24-23
+[lex] Reading char: ';' at pos 1140
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 45, columns 25-24
+[lex] Reading char: '
+' at pos 1141
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 1142
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 1143
+[lex] Parsed single operator: /
+[lex] Added token: / at line 47, columns 1-0
+[lex] Reading char: '/' at pos 1144
+[lex] Parsed single operator: /
+[lex] Added token: / at line 47, columns 2-1
+[lex] Reading char: ' ' at pos 1145
+[lex] Reading char: 'T' at pos 1146
+[lex] Starting identifier at pos 1146
+[lex] Parsed identifier: Testing
+[lex] Added token: Testing at line 47, columns 4-10
+[lex] Reading char: ' ' at pos 1153
+[lex] Reading char: 'o' at pos 1154
+[lex] Starting identifier at pos 1154
+[lex] Parsed identifier: operators
+[lex] Added token: operators at line 47, columns 12-20
+[lex] Reading char: '
+' at pos 1163
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 1164
+[lex] Starting identifier at pos 1164
+[lex] Parsed identifier: int
+[lex] Added token: int at line 48, columns 1-3
+[lex] Reading char: ' ' at pos 1167
+[lex] Reading char: 'a' at pos 1168
+[lex] Starting identifier at pos 1168
+[lex] Parsed identifier: a
+[lex] Added token: a at line 48, columns 5-5
+[lex] Reading char: ' ' at pos 1169
+[lex] Reading char: '=' at pos 1170
+[lex] Parsed single operator: =
+[lex] Added token: = at line 48, columns 7-6
+[lex] Reading char: ' ' at pos 1171
+[lex] Reading char: '5' at pos 1172
+[lex] Starting number at pos 1172
+[lex] Parsed number: 5
+[lex] Added token: 5 at line 48, columns 9-9
+[lex] Reading char: ';' at pos 1173
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 48, columns 10-9
+[lex] Reading char: '
+' at pos 1174
+[lex] Newline detected.
+[lex] Reading char: 'i' at pos 1175
+[lex] Starting identifier at pos 1175
+[lex] Parsed identifier: int
+[lex] Added token: int at line 49, columns 1-3
+[lex] Reading char: ' ' at pos 1178
+[lex] Reading char: 'b' at pos 1179
+[lex] Starting identifier at pos 1179
+[lex] Parsed identifier: b
+[lex] Added token: b at line 49, columns 5-5
+[lex] Reading char: ' ' at pos 1180
+[lex] Reading char: '=' at pos 1181
+[lex] Parsed single operator: =
+[lex] Added token: = at line 49, columns 7-6
+[lex] Reading char: ' ' at pos 1182
+[lex] Reading char: '3' at pos 1183
+[lex] Starting number at pos 1183
+[lex] Parsed number: 3
+[lex] Added token: 3 at line 49, columns 9-9
+[lex] Reading char: ';' at pos 1184
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 49, columns 10-9
+[lex] Reading char: '
+' at pos 1185
+[lex] Newline detected.
+[lex] Reading char: 'b' at pos 1186
+[lex] Starting identifier at pos 1186
+[lex] Parsed identifier: bool
+[lex] Added token: bool at line 50, columns 1-4
+[lex] Reading char: ' ' at pos 1190
+[lex] Reading char: 'l' at pos 1191
+[lex] Starting identifier at pos 1191
+[lex] Parsed identifier: logicalTest
+[lex] Added token: logicalTest at line 50, columns 6-16
+[lex] Reading char: ' ' at pos 1202
+[lex] Reading char: '=' at pos 1203
+[lex] Parsed single operator: =
+[lex] Added token: = at line 50, columns 18-17
+[lex] Reading char: ' ' at pos 1204
+[lex] Reading char: '(' at pos 1205
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 50, columns 20-19
+[lex] Reading char: 'a' at pos 1206
+[lex] Starting identifier at pos 1206
+[lex] Parsed identifier: a
+[lex] Added token: a at line 50, columns 21-21
+[lex] Reading char: ' ' at pos 1207
+[lex] Reading char: '>' at pos 1208
+[lex] Parsed single operator: >
+[lex] Added token: > at line 50, columns 23-22
+[lex] Reading char: ' ' at pos 1209
+[lex] Reading char: 'b' at pos 1210
+[lex] Starting identifier at pos 1210
+[lex] Parsed identifier: b
+[lex] Added token: b at line 50, columns 25-25
+[lex] Reading char: ')' at pos 1211
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 50, columns 26-25
+[lex] Reading char: ' ' at pos 1212
+[lex] Reading char: '&' at pos 1213
+[lex] Parsed double operator: &&
+[lex] Added token: && at line 50, columns 28-27
+[lex] Reading char: ' ' at pos 1215
+[lex] Reading char: '(' at pos 1216
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 50, columns 31-30
+[lex] Reading char: 'a' at pos 1217
+[lex] Starting identifier at pos 1217
+[lex] Parsed identifier: a
+[lex] Added token: a at line 50, columns 32-32
+[lex] Reading char: ' ' at pos 1218
+[lex] Reading char: '!' at pos 1219
+[lex] Parsed double operator: !=
+[lex] Added token: != at line 50, columns 34-33
+[lex] Reading char: ' ' at pos 1221
+[lex] Reading char: 'b' at pos 1222
+[lex] Starting identifier at pos 1222
+[lex] Parsed identifier: b
+[lex] Added token: b at line 50, columns 37-37
+[lex] Reading char: ')' at pos 1223
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 50, columns 38-37
+[lex] Reading char: ' ' at pos 1224
+[lex] Reading char: '|' at pos 1225
+[lex] Parsed double operator: ||
+[lex] Added token: || at line 50, columns 40-39
+[lex] Reading char: ' ' at pos 1227
+[lex] Reading char: '(' at pos 1228
+[lex] Parsed open parenthesis.
+[lex] Added token: ( at line 50, columns 43-42
+[lex] Reading char: 'b' at pos 1229
+[lex] Starting identifier at pos 1229
+[lex] Parsed identifier: b
+[lex] Added token: b at line 50, columns 44-44
+[lex] Reading char: ' ' at pos 1230
+[lex] Reading char: '<' at pos 1231
+[lex] Parsed double operator: <=
+[lex] Added token: <= at line 50, columns 46-45
+[lex] Reading char: ' ' at pos 1233
+[lex] Reading char: 'a' at pos 1234
+[lex] Starting identifier at pos 1234
+[lex] Parsed identifier: a
+[lex] Added token: a at line 50, columns 49-49
+[lex] Reading char: ')' at pos 1235
+[lex] Parsed close parenthesis.
+[lex] Added token: ) at line 50, columns 50-49
+[lex] Reading char: ';' at pos 1236
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 50, columns 51-50
+[lex] Reading char: '
+' at pos 1237
+[lex] Newline detected.
+[lex] Reading char: '
+' at pos 1238
+[lex] Newline detected.
+[lex] Reading char: '/' at pos 1239
+[lex] Parsed single operator: /
+[lex] Added token: / at line 52, columns 1-0
+[lex] Reading char: '/' at pos 1240
+[lex] Parsed single operator: /
+[lex] Added token: / at line 52, columns 2-1
+[lex] Reading char: ' ' at pos 1241
+[lex] Reading char: 'E' at pos 1242
+[lex] Starting identifier at pos 1242
+[lex] Parsed identifier: Edge
+[lex] Added token: Edge at line 52, columns 4-7
+[lex] Reading char: ' ' at pos 1246
+[lex] Reading char: 'c' at pos 1247
+[lex] Starting identifier at pos 1247
+[lex] Parsed identifier: cases
+[lex] Added token: cases at line 52, columns 9-13
+[lex] Reading char: ' ' at pos 1252
+[lex] Reading char: 'a' at pos 1253
+[lex] Starting identifier at pos 1253
+[lex] Parsed identifier: and
+[lex] Added token: and at line 52, columns 15-17
+[lex] Reading char: ' ' at pos 1256
+[lex] Reading char: 'p' at pos 1257
+[lex] Starting identifier at pos 1257
+[lex] Parsed identifier: potential
+[lex] Added token: potential at line 52, columns 19-27
+[lex] Reading char: ' ' at pos 1266
+[lex] Reading char: 'c' at pos 1267
+[lex] Starting identifier at pos 1267
+[lex] Parsed identifier: challenges
+[lex] Added token: challenges at line 52, columns 29-38
+[lex] Reading char: '
+' at pos 1277
+[lex] Newline detected.
+[lex] Reading char: 's' at pos 1278
+[lex] Starting identifier at pos 1278
+[lex] Parsed identifier: string
+[lex] Added token: string at line 53, columns 1-6
+[lex] Reading char: ' ' at pos 1284
+[lex] Reading char: 'e' at pos 1285
+[lex] Starting identifier at pos 1285
+[lex] Parsed identifier: emptyString
+[lex] Added token: emptyString at line 53, columns 8-18
+[lex] Reading char: ' ' at pos 1296
+[lex] Reading char: '=' at pos 1297
+[lex] Parsed single operator: =
+[lex] Added token: = at line 53, columns 20-19
+[lex] Reading char: ' ' at pos 1298
+[lex] Reading char: '"' at pos 1299
+[lex] Starting string literal.
+[lex] Parsed string: ""
+[lex] Added token: "" at line 53, columns 22-23
+[lex] Reading char: ';' at pos 1301
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 53, columns 24-23
+[lex] Reading char: '
+' at pos 1302
+[lex] Newline detected.
+[lex] Reading char: 'c' at pos 1303
+[lex] Starting identifier at pos 1303
+[lex] Parsed identifier: char
+[lex] Added token: char at line 54, columns 1-4
+[lex] Reading char: ' ' at pos 1307
+[lex] Reading char: 'n' at pos 1308
+[lex] Starting identifier at pos 1308
+[lex] Parsed identifier: newlineChar
+[lex] Added token: newlineChar at line 54, columns 6-16
+[lex] Reading char: ' ' at pos 1319
+[lex] Reading char: '=' at pos 1320
+[lex] Parsed single operator: =
+[lex] Added token: = at line 54, columns 18-17
+[lex] Reading char: ' ' at pos 1321
+[lex] Reading char: ''' at pos 1322
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 54, columns 20-19
+[lex] Reading char: '\' at pos 1323
+[lex] Unknown character encountered: \
+[lex] Added token: \ at line 54, columns 21-20
+[lex] Reading char: 'n' at pos 1324
+[lex] Starting identifier at pos 1324
+[lex] Parsed identifier: n
+[lex] Added token: n at line 54, columns 22-22
+[lex] Reading char: ''' at pos 1325
+[lex] Unknown character encountered: '
+[lex] Added token: ' at line 54, columns 23-22
+[lex] Reading char: ';' at pos 1326
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 54, columns 24-23
+[lex] Reading char: '
+' at pos 1327
+[lex] Newline detected.
+[lex] Reading char: 'f' at pos 1328
+[lex] Starting identifier at pos 1328
+[lex] Parsed identifier: float
+[lex] Added token: float at line 55, columns 1-5
+[lex] Reading char: ' ' at pos 1333
+[lex] Reading char: 'i' at pos 1334
+[lex] Starting identifier at pos 1334
+[lex] Parsed identifier: invalidNumber
+[lex] Added token: invalidNumber at line 55, columns 7-19
+[lex] Reading char: ' ' at pos 1347
+[lex] Reading char: '=' at pos 1348
+[lex] Parsed single operator: =
+[lex] Added token: = at line 55, columns 21-20
+[lex] Reading char: ' ' at pos 1349
+[lex] Reading char: '3' at pos 1350
+[lex] Starting number at pos 1350
+[lex] Second decimal point detected, breaking float parse.
+[lex] Parsed number: 3.14
+[lex] Added token: 3.14 at line 55, columns 23-26
+[lex] Reading char: '.' at pos 1354
+[lex] Unknown character encountered: .
+[lex] Added token: . at line 55, columns 27-26
+[lex] Reading char: '1' at pos 1355
+[lex] Starting number at pos 1355
+[lex] Parsed number: 15
+[lex] Added token: 15 at line 55, columns 28-29
+[lex] Reading char: ';' at pos 1357
+[lex] Parsed semicolon.
+[lex] Added token: ; at line 55, columns 30-29
+[lex] Reading char: ' ' at pos 1358
+[lex] Reading char: ' ' at pos 1359
+[lex] Reading char: '/' at pos 1360
+[lex] Parsed single operator: /
+[lex] Added token: / at line 55, columns 33-32
+[lex] Reading char: '/' at pos 1361
+[lex] Parsed single operator: /
+[lex] Added token: / at line 55, columns 34-33
+[lex] Reading char: ' ' at pos 1362
+[lex] Reading char: 'T' at pos 1363
+[lex] Starting identifier at pos 1363
+[lex] Parsed identifier: This
+[lex] Added token: This at line 55, columns 36-39
+[lex] Reading char: ' ' at pos 1367
+[lex] Reading char: 's' at pos 1368
+[lex] Starting identifier at pos 1368
+[lex] Parsed identifier: should
+[lex] Added token: should at line 55, columns 41-46
+[lex] Reading char: ' ' at pos 1374
+[lex] Reading char: 'p' at pos 1375
+[lex] Starting identifier at pos 1375
+[lex] Parsed identifier: probably
+[lex] Added token: probably at line 55, columns 48-55
+[lex] Reading char: ' ' at pos 1383
+[lex] Reading char: 'b' at pos 1384
+[lex] Starting identifier at pos 1384
+[lex] Parsed identifier: be
+[lex] Added token: be at line 55, columns 57-58
+[lex] Reading char: ' ' at pos 1386
+[lex] Reading char: 'f' at pos 1387
+[lex] Starting identifier at pos 1387
+[lex] Parsed identifier: flagged
+[lex] Added token: flagged at line 55, columns 60-66
+[lex] Reading char: ' ' at pos 1394
+[lex] Reading char: 'a' at pos 1395
+[lex] Starting identifier at pos 1395
+[lex] Parsed identifier: as
+[lex] Added token: as at line 55, columns 68-69
+[lex] Reading char: ' ' at pos 1397
+[lex] Reading char: 'a' at pos 1398
+[lex] Starting identifier at pos 1398
+[lex] Parsed identifier: an
+[lex] Added token: an at line 55, columns 71-72
+[lex] Reading char: ' ' at pos 1400
+[lex] Reading char: 'e' at pos 1401
+[lex] Starting identifier at pos 1401
+[lex] Parsed identifier: error
+[lex] Added token: error at line 55, columns 74-78
+[lex] Reading char: '
+' at pos 1406
+[lex] Newline detected.
+[lex] Reading char: 's' at pos 1407
+[lex] Starting identifier at pos 1407
+[lex] Parsed identifier: string
+[lex] Added token: string at line 56, columns 1-6
+[lex] Reading char: ' ' at pos 1413
+[lex] Reading char: 'u' at pos 1414
+[lex] Starting identifier at pos 1414
+[lex] Parsed identifier: unterminatedString
+[lex] Added token: unterminatedString at line 56, columns 8-25
+[lex] Reading char: ' ' at pos 1432
+[lex] Reading char: '=' at pos 1433
+[lex] Parsed single operator: =
+[lex] Added token: = at line 56, columns 27-26
+[lex] Reading char: ' ' at pos 1434
+[lex] Reading char: '"' at pos 1435
+[lex] Starting string literal.
+[lex] Unterminated string literal!
+[lex] Lexical analysis complete. Total tokens: 335
+[save_tokens] Saving tokens:
+[save_tokens] Successfully opened file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Writing token to file:
+[save_tokens] Finished writing token to file.
+[save_tokens] Successfully closed the file.
