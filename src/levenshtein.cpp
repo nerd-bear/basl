@@ -1,0 +1,89 @@
+#include <algorithm>
+#include <cctype>
+#include <locale>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <math.h>
+
+namespace Levenshtein
+{
+    namespace helper
+    {
+        inline void ltrim(std::string &s)
+        {
+            s.erase(s.begin(), std::find_if(s.begin(), s.end(), [](unsigned char ch)
+                                            { return !std::isspace(ch); }));
+        }
+
+        inline void rtrim(std::string &s)
+        {
+            s.erase(std::find_if(s.rbegin(), s.rend(), [](unsigned char ch)
+                                 { return !std::isspace(ch); })
+                        .base(),
+                    s.end());
+        }
+
+        inline void trim(std::string &s)
+        {
+            rtrim(s);
+            ltrim(s);
+        }
+
+        inline std::string ltrim_copy(std::string s)
+        {
+            ltrim(s);
+            return s;
+        }
+
+        inline std::string rtrim_copy(std::string s)
+        {
+            rtrim(s);
+            return s;
+        }
+
+        inline std::string trim_copy(std::string s)
+        {
+            trim(s);
+            return s;
+        }
+    }
+
+    /*
+    Based of the work of Guilherme Agostinelli and Michael J. Fischer
+    */
+    int computeDistance(std::string inputA, std::string inputB)
+    {
+        helper::trim(inputA);
+        helper::trim(inputB);
+
+        int sizeA = inputA.size();
+        int sizeB = inputB.size();
+
+        std::vector<std::vector<int>> matrix(sizeA + 1, std::vector<int>(sizeB + 1));
+
+        if (sizeA == 0)
+            return sizeB;
+        if (sizeB == 0)
+            return sizeA;
+
+        for (int i = 0; i <= sizeA; i++)
+            matrix[i][0] = i;
+        for (int j = 0; j <= sizeB; j++)
+            matrix[0][j] = j;
+
+        for (int i = 1; i <= sizeA; i++)
+        {
+            for (int j = 1; j <= sizeB; j++)
+            {
+                int score = (inputB[j - 1] == inputA[i - 1]) ? 0 : 1;
+
+                matrix[i][j] = std::min(
+                    std::min(matrix[i - 1][j] + 1, matrix[i][j - 1] + 1),
+                    matrix[i - 1][j - 1] + score);
+            }
+        }
+
+        return matrix[sizeA][sizeB];
+    }
+}
