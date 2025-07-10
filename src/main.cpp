@@ -8,12 +8,17 @@ int main()
 {
     try
     {
-
+        std::cout << "Starting File Read" << std::endl;
         std::string content = readFile("C:/Users/nerdb/Desktop/coding-projects/bassil/input/main.basl").fileContent;
+        std::cout << "File Read" << std::endl;
 
+        std::cout << "Starting Lex" << std::endl;
         auto tokens = lex(content);
+        std::cout << "Ended Lex" << std::endl;
 
+        std::cout << "Initing parser" << std::endl;
         Parser parser(tokens);
+        std::cout << "Inited parser" << std::endl;
         try
         {
             std::cout << "Starting parser..." << std::endl;
