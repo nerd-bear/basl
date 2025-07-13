@@ -99,3 +99,4 @@ namespace Levenshtein
         return matrix[sizeA][sizeB];
     }
 }
+
