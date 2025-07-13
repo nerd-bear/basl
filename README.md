@@ -1,4 +1,4 @@
-# Basl 
+# Bassil July 2025 (version 1.0.0 in development) 
 
 The next big lanugage. Basl: Is a modern, mid-level interpreted/compilied programming language designed for efficiency and readability. Featuring robust lexical analysis, error handling, and cross-platform support for Windows and Linux. Basl offers a balance between low-level control and high-level abstraction, making it ideal for system programming, web development, and more. 
 
