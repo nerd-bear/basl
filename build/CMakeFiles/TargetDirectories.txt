@@ -1,0 +1,3 @@
+C:/Users/nerdb/Desktop/coding-projects/bassil/build/CMakeFiles/Bassil.dir
+C:/Users/nerdb/Desktop/coding-projects/bassil/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/nerdb/Desktop/coding-projects/bassil/build/CMakeFiles/ZERO_CHECK.dir
