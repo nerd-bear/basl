@@ -19,8 +19,9 @@ Copyright 2025-latest I. Mitterfellner
 #pragma once
 
 #include "tokens.hpp"
+#include "errorhandler.hpp"
 #include <vector>
 #include <string>
 #include <unordered_map>
 
-std::vector<Token> lex(const std::string &inputString);
+std::vector<Token> lex(const std::string &inputString, const std::string filePath);

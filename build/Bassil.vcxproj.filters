@@ -45,6 +45,9 @@
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\tokens.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\argparse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\nerdb\Desktop\coding-projects\bassil\CMakeLists.txt" />

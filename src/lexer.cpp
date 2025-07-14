@@ -14,7 +14,7 @@ Copyright 2025-latest I. Mitterfellner
    See the License for the specific language governing permissions and
    limitations under the License.
 
-*/   
+*/
 
 #include "lexer.hpp"
 #include <iostream>
@@ -29,7 +29,7 @@ inline bool isIdentifierContinuation(char c)
     return std::isalnum(c) || c == '_';
 }
 
-std::vector<Token> lex(const std::string &inputString)
+std::vector<Token> lex(const std::string &inputString, const std::string filePath)
 {
     std::vector<Token> tokens;
 
@@ -37,7 +37,14 @@ std::vector<Token> lex(const std::string &inputString)
         {"int", TK_TypeInteger},
         {"char", TK_TypeChar},
         {"float", TK_TypeFloat},
-        {"string", TK_TypeString}};
+        {"string", TK_TypeString},
+        {"bool", TK_TypeBool}, // Add this
+        {"if", TK_KeywordIf},
+        {"else", TK_KeywordElse},
+        {"for", TK_KeywordFor},
+        {"function", TK_KeywordFunction},
+        {"return", TK_KeywordReturn},
+        {"print", TK_KeywordPrint}};
 
     std::unordered_map<std::string, TokenKind> operators = {
         {"+", TK_MathOperator},
@@ -54,7 +61,13 @@ std::vector<Token> lex(const std::string &inputString)
         {">=", TK_ComparisonOperator},
         {"&&", TK_LogicalOperator},
         {"||", TK_LogicalOperator},
-        {"!", TK_LogicalOperator}};
+        {"!", TK_LogicalOperator},
+        {";", TK_Semicolon},
+        {"(", TK_OpenParen},
+        {")", TK_CloseParen},
+        {"{", TK_OpenBrace},
+        {"}", TK_CloseBrace},
+        {",", TK_Comma}};
 
     size_t pos = 0;
     int line = 1;
@@ -109,8 +122,10 @@ std::vector<Token> lex(const std::string &inputString)
             continue;
         }
 
-        if (std::isdigit(currentChar))
+        if (currentChar == '-' && std::isdigit(inputString[pos + 1]))
         {
+            pos++;
+            column++;
             size_t startPos = pos;
             int startColumn = column;
             bool isFloat = false;
@@ -134,6 +149,52 @@ std::vector<Token> lex(const std::string &inputString)
             continue;
         }
 
+        // Handle character literals (single quotes)
+        if (currentChar == '\'')
+        {
+            size_t startPos = pos;
+            int startColumn = column;
+            pos++;
+            column++;
+
+            // Handle escape sequences
+            if (pos < inputString.length() && inputString[pos] == '\\')
+            {
+                pos++;
+                column++;
+            }
+
+            if (pos >= inputString.length() || inputString[pos] == '\'')
+            {
+                // Invalid character literal (empty or unterminated)
+                pos++;
+                column++;
+                std::string charLit = inputString.substr(startPos, pos - startPos);
+                addToken(TK_String, charLit, startColumn);
+                continue;
+            }
+
+            // Get the actual character
+            pos++;
+            column++;
+
+            // Expect closing quote
+            if (pos >= inputString.length() || inputString[pos] != '\'')
+            {
+                // Unterminated character literal
+                std::string charLit = inputString.substr(startPos, pos - startPos);
+                addToken(TK_String, charLit, startColumn);
+                continue;
+            }
+
+            pos++;
+            column++;
+            std::string charLit = inputString.substr(startPos, pos - startPos);
+            addToken(TK_String, charLit, startColumn);
+            continue;
+        }
+
+        // Handle string literals (double quotes)
         if (currentChar == '"')
         {
             size_t startPos = pos;
@@ -157,7 +218,10 @@ std::vector<Token> lex(const std::string &inputString)
 
             if (pos >= inputString.length())
             {
-                break;
+                // Unterminated string
+                std::string str = inputString.substr(startPos, pos - startPos);
+                addToken(TK_String, str, startColumn);
+                continue;
             }
 
             pos++;
@@ -167,6 +231,7 @@ std::vector<Token> lex(const std::string &inputString)
             continue;
         }
 
+        // Handle operators
         std::string op(1, currentChar);
         if (pos + 1 < inputString.length())
         {
@@ -189,27 +254,19 @@ std::vector<Token> lex(const std::string &inputString)
             column++;
             continue;
         }
+
+        // TODO: Calculate the proper end column
+        // reportError(filePath, line, column, column+5, "Unkown token");
+
+        pos++;
+        column++;
     }
 
-    if (!tokens.empty() && tokens.back().type != TK_EOF)
+    // Add EOF token (only once)
+    if (tokens.empty() || tokens.back().type != TK_EOF)
     {
         tokens.push_back({TK_EOF, "", line, column, column});
     }
 
-    else if (tokens.empty())
-    {
-        tokens.push_back({TK_EOF, "", 1, 1, 1});
-    }
-
-    if (!tokens.empty() && tokens.back().type != TK_EOF)
-    {
-        tokens.push_back({TK_EOF, "", line, column, column});
-    }
-    else if (tokens.empty())
-    {
-        tokens.push_back({TK_EOF, "", 1, 1, 1});
-    }
-
-    std::cout << "Lexer produced " << tokens.size() << " tokens\n";
     return tokens;
 }

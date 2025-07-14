@@ -20,5 +20,7 @@ Copyright 2025-latest I. Mitterfellner
 
 flagsStruct handleRunArgs(int argc, char *argv[])
 {
+    
+
     return flagsStruct{};
 }

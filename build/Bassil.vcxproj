@@ -346,6 +346,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\parser.hpp" />
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\runargs.hpp" />
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\tokens.hpp" />
+    <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\argparse.hpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

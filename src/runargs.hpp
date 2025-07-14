@@ -19,6 +19,7 @@ Copyright 2025-latest I. Mitterfellner
 #pragma once
 
 #include <string>
+#include <argparse.hpp>
 
 struct flagsStruct
 {

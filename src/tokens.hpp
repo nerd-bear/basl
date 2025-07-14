@@ -14,7 +14,7 @@ Copyright 2025-latest I. Mitterfellner
    See the License for the specific language governing permissions and
    limitations under the License.
 
-*/   
+*/
 
 #pragma once
 #include <string>
@@ -43,6 +43,14 @@ enum TokenKind
     TK_OpenBrace,  // {
     TK_CloseBrace, // }
     TK_Comma,      // ,
+    TK_TypeBool,
+
+    TK_KeywordIf,
+    TK_KeywordElse,
+    TK_KeywordFor,
+    TK_KeywordFunction,
+    TK_KeywordReturn,
+    TK_KeywordPrint,
 
     // special dont ask
     TK_Unknown,
