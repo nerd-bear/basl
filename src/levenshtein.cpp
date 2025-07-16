@@ -16,6 +16,19 @@ Copyright 2025-latest I. Mitterfellner
 
 */
 
+/*
+
+As of writing this, we are using https://github.com/p-ranav/argparse for our
+runtime argument parser, however in the future we are planning to rewrite
+the argument parser for our own specific needs. This will get us closer to
+our goal of zero thrid party libs by 1.0.0 full release. When the argument
+parser will be rewritten, we wish to add a feature so that if an incorrect
+argument is passed that does not exist, Levenshtein will be used to locate
+the most similar argument if one exists. This is similar to git or the memo
+discord bots command handler.
+
+*/
+
 #include "levenshtein.hpp"
 
 namespace Levenshtein
@@ -61,9 +74,6 @@ namespace Levenshtein
         }
     }
 
-    /*
-    Based of the work of Guilherme Agostinelli and Michael J. Fischer
-    */
     int computeDistance(std::string inputA, std::string inputB)
     {
         helper::trim(inputA);
@@ -99,4 +109,3 @@ namespace Levenshtein
         return matrix[sizeA][sizeB];
     }
 }
-

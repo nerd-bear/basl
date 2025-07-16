@@ -23,6 +23,7 @@ add_executable(Bassil
     src/runargs.hpp
     src/tokens.hpp
     src/argparse.hpp
+    src/indicators.hpp
 )
 
 target_include_directories(Bassil PRIVATE src)
