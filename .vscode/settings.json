@@ -88,6 +88,7 @@
         "thread": "cpp",
         "typeindex": "cpp",
         "variant": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "csignal": "cpp"
     }
 }

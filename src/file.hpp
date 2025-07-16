@@ -14,7 +14,7 @@ Copyright 2025-latest I. Mitterfellner
    See the License for the specific language governing permissions and
    limitations under the License.
 
-*/   
+*/
 
 #pragma once
 
@@ -27,10 +27,12 @@ Copyright 2025-latest I. Mitterfellner
 #include <clocale>
 #include <codecvt>
 #include <locale>
+#include <sys/stat.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 
-enum class FileType {
+enum class FileType
+{
     BINARY,
     TEXT_ASCII,
     TEXT_UTF8,
@@ -41,11 +43,14 @@ enum class FileType {
     UNKNOWN
 };
 
-struct file
+struct fileStruct
 {
     bool fileReadSuccess;
     std::string fileContent;
 };
 
 int checkFileAccess(const std::filesystem::path &path, int amode);
-file readFile(std::string absoluteReadPath = "");
+
+fileStruct readFile(std::string absoluteReadPath = "");
+
+std::string pathToAbsolutePath(std::string pathStr);    

@@ -1,91 +1,106 @@
-// /*
+/*
 
-// Copyright 2025-latest I. Mitterfellner
+Copyright 2025-latest I. Mitterfellner
 
-//    Licensed under the Apache License, Version 2.0 (the "License");
-//    you may not use this file except in compliance with the License.
-//    You may obtain a copy of the License at
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
 
-//        http://www.apache.org/licenses/LICENSE-2.0
+       http://www.apache.org/licenses/LICENSE-2.0
 
-//    Unless required by applicable law or agreed to in writing, software
-//    distributed under the License is distributed on an "AS IS" BASIS,
-//    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-//    See the License for the specific language governing permissions and
-//    limitations under the License.
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
 
-// */
+*/
 
-// #include "file.hpp"
-// #include "lexer.hpp"
-// #include "parser.hpp"
-// #include "argparse.hpp"
-// #include <string>
-// #include <iostream>
+#include "file.hpp"
+#include "lexer.hpp"
+#include "parser.hpp"
+#include "runargs.hpp"
+#include <string>
+#include <iostream>
+#include <csignal>
+#include <cstdlib>
 
-// int main(int argc, char *argv[])
-// {
-//     std::string absoluteFileReadPath = "C:/Users/nerdb/Desktop/coding-projects/bassil/input/secondary.basl";
+#define version "A1.0.0"
 
-//     try
-//     {
-//         std::cout << "Starting File Read" << std::endl;
-//         std::string content = readFile(absoluteFileReadPath).fileContent;
-//         std::cout << "File Read" << std::endl;
+void exitSignalHandler(int signalIndex)
+{
+    std::cout << "Interrupt signal (" << signalIndex << ") received.\n";
 
-//         std::cout << "Starting Lex" << std::endl;
-//         auto tokens = lex(content, absoluteFileReadPath);
-//         std::cout << "Ended Lex" << std::endl;
+    // clean up will be added later
 
-//         std::cout << "Initing parser" << std::endl;
-//         Parser parser(tokens);
-//         std::cout << "Inited parser" << std::endl;
-//         try
-//         {
-//             std::cout << "Starting parser..." << std::endl;
-//             auto statements = parser.parse();
-//             std::cout << "Parsing completed successfully! Found "
-//                       << statements.size() << " statements" << std::endl;
-
-//             std::cout << parser.printAST(statements) << std::endl;
-//         }
-//         catch (const std::runtime_error &e)
-//         {
-//             std::cerr << "Parsing failed: " << e.what() << std::endl;
-//             return 1;
-//         }
-//     }
-//     catch (...)
-//     {
-//         std::cerr << "Unexpected error occurred" << std::endl;
-//         return 1;
-//     }
-//     return 0;
-// }
-
-#include <argparse.hpp>
+    exit(signalIndex);
+}
 
 int main(int argc, char *argv[])
 {
-    argparse::ArgumentParser program("program_name");
+    // Abnormal termination of the program, such as a call to abort.
+    signal(SIGABRT, exitSignalHandler);
+    // An erroneous arithmetic operation, such as a divide by zero or an operation resulting in overflow.
+    signal(SIGFPE, exitSignalHandler);
+    // Detection of an illegal instruction.
+    signal(SIGILL, exitSignalHandler);
+    // Receipt of an interactive attention signal.
+    signal(SIGINT, exitSignalHandler);
+    // An invalid access to storage.
+    signal(SIGSEGV, exitSignalHandler);
+    // A termination request sent to the program.
+    signal(SIGTERM, exitSignalHandler);
 
-    program.add_argument("square")
-        .help("display the square of a given integer")
-        .scan<'i', int>();
+    flagsStruct runArgs = handleRunArgs(argc, argv, version);
+
+    // std::string absoluteFileReadPath = "C:/Users/nerdb/Desktop/coding-projects/bassil/input/secondary.basl";
+    std::string inputPath = runArgs.inputPath;
+    std::string outputPath = runArgs.outputPath;
+    bool warningIgnore = runArgs.warningIgnore;
+    bool consoleColor = runArgs.consoleColor;
+    bool generalProccessLogs = runArgs.generalProccessLogs;
+    bool advancedProccessLogs = runArgs.advancedProccessLogs;
+
+    std::string absoluteFileReadPath = pathToAbsolutePath(inputPath);
+
+    if (absoluteFileReadPath.length() == 0)
+    {
+        std::cout << "File input path Invalid\n";
+        exit(1);
+    }
 
     try
     {
-        program.parse_args(argc, argv);
+        std::cout << "Starting File Read" << std::endl;
+        std::string content = readFile(absoluteFileReadPath).fileContent;
+        std::cout << "File Read" << std::endl;
+
+        std::cout << "Starting Lex" << std::endl;
+        auto tokens = lex(content, absoluteFileReadPath);
+        std::cout << "Ended Lex" << std::endl;
+
+        std::cout << "Initing parser" << std::endl;
+        Parser parser(tokens);
+        std::cout << "Inited parser" << std::endl;
+        try
+        {
+            std::cout << "Starting parser..." << std::endl;
+            auto statements = parser.parse();
+            std::cout << "Parsing completed successfully! Found "
+                      << statements.size() << " statements" << std::endl;
+
+            std::cout << parser.printAST(statements) << std::endl;
+        }
+        catch (const std::runtime_error &e)
+        {
+            std::cerr << "Parsing failed: " << e.what() << std::endl;
+            return 1;
+        }
     }
-    catch (const std::exception &err)
+    catch (...)
     {
-        std::cerr << err.what() << std::endl;
-        std::cerr << program;
+        std::cerr << "Unexpected error occurred" << std::endl;
         return 1;
     }
-
-    auto input = program.get<int>("square");
-    std::cout << (input * input) << std::endl;
-
     return 0;
 }
