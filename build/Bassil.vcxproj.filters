@@ -22,6 +22,12 @@
     <ClCompile Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\runargs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\spinner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\cursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\errorhandler.hpp">
@@ -46,6 +52,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\argparse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\indicators.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\spinner.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\cursor.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

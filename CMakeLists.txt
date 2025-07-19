@@ -13,6 +13,8 @@ add_executable(Bassil
     src/lexer.cpp 
     src/parser.cpp 
     src/runargs.cpp
+    src/spinner.cpp
+    src/cursor.cpp
 
     # for better IDE support
     src/errorhandler.hpp
@@ -24,6 +26,8 @@ add_executable(Bassil
     src/tokens.hpp
     src/argparse.hpp
     src/indicators.hpp
+    src/spinner.hpp
+    src/cursor.hpp
 )
 
 target_include_directories(Bassil PRIVATE src)

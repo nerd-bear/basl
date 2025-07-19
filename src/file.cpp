@@ -271,9 +271,9 @@ fileStruct readFile(std::string absoluteReadPath)
 std::string pathToAbsolutePath(std::string pathStr)
 {
     trim(pathStr);
-    if (pathStr.empty())
+    if (pathStr.length() == 0)
     {
-        std::cerr << "Empty path provided" << std::endl;
+        std::cerr << "[pathToAbsolutePath] Empty path provided" << std::endl;
         return "";
     }
 

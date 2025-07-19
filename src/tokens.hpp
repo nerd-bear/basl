@@ -52,7 +52,7 @@ enum TokenKind
     TK_KeywordReturn,
     TK_KeywordPrint,
 
-    // special dont ask
+    // special
     TK_Unknown,
     TK_EOF // End of file
 };

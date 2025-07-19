@@ -20,6 +20,7 @@ Copyright 2025-latest I. Mitterfellner
 #include "lexer.hpp"
 #include "parser.hpp"
 #include "runargs.hpp"
+#include "spinner.hpp"
 #include <string>
 #include <iostream>
 #include <csignal>
@@ -53,7 +54,6 @@ int main(int argc, char *argv[])
 
     flagsStruct runArgs = handleRunArgs(argc, argv, version);
 
-    // std::string absoluteFileReadPath = "C:/Users/nerdb/Desktop/coding-projects/bassil/input/secondary.basl";
     std::string inputPath = runArgs.inputPath;
     std::string outputPath = runArgs.outputPath;
     bool warningIgnore = runArgs.warningIgnore;
@@ -61,9 +61,9 @@ int main(int argc, char *argv[])
     bool generalProccessLogs = runArgs.generalProccessLogs;
     bool advancedProccessLogs = runArgs.advancedProccessLogs;
 
-    std::string absoluteFileReadPath = pathToAbsolutePath(inputPath);
+    // AAHHH 
 
-    if (absoluteFileReadPath.length() == 0)
+    if (inputPath.length() == 0)
     {
         std::cout << "File input path Invalid\n";
         exit(1);
@@ -72,11 +72,11 @@ int main(int argc, char *argv[])
     try
     {
         std::cout << "Starting File Read" << std::endl;
-        std::string content = readFile(absoluteFileReadPath).fileContent;
+        std::string content = readFile(inputPath).fileContent;
         std::cout << "File Read" << std::endl;
 
         std::cout << "Starting Lex" << std::endl;
-        auto tokens = lex(content, absoluteFileReadPath);
+        auto tokens = lex(content, inputPath);
         std::cout << "Ended Lex" << std::endl;
 
         std::cout << "Initing parser" << std::endl;
@@ -104,3 +104,22 @@ int main(int argc, char *argv[])
     }
     return 0;
 }
+
+// #include "spinner.hpp"
+
+// int main()
+// {
+//     spinner::Spinner spinner = spinner::Spinner(brail);
+
+//     spinner.setText("Loading");
+
+//     spinner.setTimeSep(100);
+
+//     spinner.start();
+
+//     std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+
+//     spinner.end();
+
+//     return 0;
+// }

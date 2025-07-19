@@ -28,8 +28,8 @@ flagsStruct handleRunArgs(int argc, char *argv[], std::string version)
         .default_value(std::string{"./a.exe"});
 
     program.add_argument("-i", "--input", "--inputFile")
-        .required()
-        .help("This is the file path where your source code is");
+        .help("This is the file path where your source code is")
+        .required();
 
     // ========= FLAGS =========
     program.add_argument("-w", "--warning", "--waringIgnore")

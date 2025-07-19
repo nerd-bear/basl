@@ -339,6 +339,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\lexer.cpp" />
     <ClCompile Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\parser.cpp" />
     <ClCompile Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\runargs.cpp" />
+    <ClCompile Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\spinner.cpp" />
+    <ClCompile Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\cursor.cpp" />
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\errorhandler.hpp" />
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\file.hpp" />
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\levenshtein.hpp" />
@@ -347,6 +349,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\runargs.hpp" />
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\tokens.hpp" />
     <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\argparse.hpp" />
+    <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\indicators.hpp" />
+    <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\spinner.hpp" />
+    <ClInclude Include="C:\Users\nerdb\Desktop\coding-projects\bassil\src\cursor.hpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
